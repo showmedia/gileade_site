@@ -16,5 +16,5 @@ jobs:
       with:
         server: ${{ secrets.ftp_gile_host }}
         username: ${{ secrets.ftp_gile_user }}
-        password: ${{ secrets.ftp_password }}
+        password: ${{ secrets.ftp_gile_password }}
         server-dir: /
