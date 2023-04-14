@@ -33,16 +33,22 @@
                 </div> 
             </main>
            
-    <footer class="text-center p-3 text-white" style='background-color: #004e87; font-weight: 500;'>
-		<div class="d-md-flex col-12">
-			<div class="p-2 flex-fill">
+    <footer class="text-center text-white" style='background-color: #004e87; font-weight: 500; padding-top: 30px;'>
+		<div class="d-md-flex p-sm-5 col-12">
+			<div class="flex-fill">
                 <img src="/img/logobranco.png" alt="logotipo todo branco" class="img">
+                <div class="text-center d-flex social-links p-2" style="width: 0 auto;">
+                    <button href="" target="_blank" rel="whats"><ion-icon name="logo-whatsapp"></ion-icon></button>
+                    <button href="" target="_blank" rel="instagram"><ion-icon name="logo-instagram"></ion-icon></button>
+                </div>
             </div>
-			<div class="p-2 flex-fill">teste 2</div>
-			<div class="p-2 flex-fill">teste</div>
-			<div class="p-2 flex-fill">teste</div>
+			<div class="flex-fill"></div>
+			<div class="flex-fill">teste</div>
+			<div class="flex-fill">teste</div>
 		</div>
-        <p class="mt-5">Gileade Despachante - &copy;2023  -  Desenvolvido por <a style="text-decoration:none; color:#fff;" href="https://www.instagram.com/showmediaart/" target="_blank" rel="noopener noreferrer">Show Media</a> </p>
+        <div  class="mt-5 p-4">
+            <p>Gileade Despachante - &copy;2023  -  Desenvolvido por <a style="text-decoration:none; color:#fff;" href="https://www.instagram.com/showmediaart/" target="_blank" rel="noopener noreferrer">Show Media</a> </p>
+        </div>
     </footer>
 
 
