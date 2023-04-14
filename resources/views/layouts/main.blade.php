@@ -35,7 +35,9 @@
            
     <footer class="text-center p-3 text-white" style='background-color: #004e87; font-weight: 500;'>
 		<div class="d-md-flex col-12">
-			<div class="p-2 flex-fill">teste 1</div>
+			<div class="p-2 flex-fill">
+                <img src="/img/logobranco.png" alt="logotipo todo branco" class="img">
+            </div>
 			<div class="p-2 flex-fill">teste 2</div>
 			<div class="p-2 flex-fill">teste</div>
 			<div class="p-2 flex-fill">teste</div>
