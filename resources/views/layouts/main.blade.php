@@ -42,11 +42,24 @@
                     <button href="" target="_blank" rel="instagram"><ion-icon name="logo-instagram"></ion-icon></button>
                 </div>
             </div>
-			<div class="flex-fill"></div>
-			<div class="flex-fill">teste</div>
+			<div class="flex-fill">
+                <ul>
+                    <li><a href="">Sobre Nós</a></li>
+                    <li><a href="">Política de Privacidade</a></li>
+                    <li><a href="">Termos de Uso</a></li>
+                </ul>
+            </div>
+			<div class="flex-fill texto" style="text-align: left;">
+                <h5>Atendimento</h5>
+                <p class="mt-4" style="font-size: 0.9rem">Segunda a Sexta: 8h às 18h <br>
+                    Sábado: 8h ás 13h
+                </p>
+
+                <a target="_blanck" href=""> <ion-icon name="logo-whatsapp"></ion-icon> <span class="ms-2">Entrar em contato</span> </a>
+            </div>
 			<div class="flex-fill">teste</div>
 		</div>
-        <div  class="mt-5 p-4">
+        <div  class="p-4" style="font-size: 0.8rem;">
             <p>Gileade Despachante - &copy;2023  -  Desenvolvido por <a style="text-decoration:none; color:#fff;" href="https://www.instagram.com/showmediaart/" target="_blank" rel="noopener noreferrer">Show Media</a> </p>
         </div>
     </footer>

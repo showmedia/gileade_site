@@ -30,6 +30,12 @@ header {
     margin: 10px auto
 }
 
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}
+
 footer img{
     width: 10vw;
 }
@@ -55,3 +61,36 @@ footer .social-links button{
 .social-links button:hover{
     background-color: #eee;
 }
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: left;
+    justify-content: space-between;
+}
+footer ul li{
+    list-style-type: none;
+}
+
+footer ul li a{
+    color: #fff;
+}
+
+
+footer ul li a:hover{
+    color: #dfb453;
+}
+
+footer h5{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+footer .texto a{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
