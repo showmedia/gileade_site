@@ -1,0 +1,35 @@
+* {
+    font-family: 'roboto';
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+    background-color: #f1f1f1;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.img-logo{
+    width: 50%;
+    margin: 10px auto
+}
+
+footer img{
+    width: 20vw;
+}
