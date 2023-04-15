@@ -2,4 +2,45 @@
     footer img{
         width: 30vw;
     }
+    footer .d-md-flex .flex-fill{
+        text-align: center !important;
+    }
+    footer .texto a{
+        text-align: center;
+        justify-content: center;
+    }
+
+    footer ul{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    footer .texto {
+        margin-bottom: 20px;
+    }
+
+    footer .apresenta{
+        max-width: 100% !important;
+        padding: 5vh;
+    }
+
+    .logo img {
+        max-width: 15vw;  
+    }
+    .toggle-button {
+        display: flex !important;
+    }
+    .menu{
+        display: none;
+    }
 }
+
+@media screen and (min-width: 768px) {
+    .toggle-button {
+      display: none;
+    }
+  }

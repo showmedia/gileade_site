@@ -22,15 +22,31 @@
 
     <body>
             <header>
+
+
+            <nav>
+  <div class="logo">
+    <a href="#"><img src="img/logo2.jpeg" alt="Logo"></a>
+  </div>
+  <ul class="menu">
+    <li><a >Categoria 1</a></li>
+    <li><a >Categoria 2</a></li>
+    <li><a >Categoria 3</a></li>
+  </ul>
+  <button><ion-icon name="search-outline"></ion-icon> Consultar Veículo</button>
+  <div class="toggle-button bg-danger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
             
             </header>
 
             <main>
-                          
-
-                
-                    @yield('content')
-                </div> 
+            
+                @yield('content')
+               
             </main>
            
     <footer class="text-center text-white" style='background-color: #004e87; font-weight: 500; padding-top: 30px;'>
@@ -57,7 +73,18 @@
 
                 <a target="_blanck" href=""> <ion-icon name="logo-whatsapp"></ion-icon> <span class="ms-2">Entrar em contato</span> </a>
             </div>
-			<div class="flex-fill">teste</div>
+			<div class="flex-fill" style="text-align: left;">
+                <h5>Endereço</h5>
+                <p class="mt-4" style="font-size: 0.9rem">
+                    Rua Muritiba, 544 - Jd Pres Dutra <br>
+                    Guarulhos-SP
+                </p>
+            </div>
+            <div class="flex-fill apresenta" style="text-align: left; max-width: 250px; font-size: 0.8rem">
+                <p>
+                    "Somos um escritório de despachante dedicado, responsável e profissional, preparado para ajudá-lo em todas as suas necessidades. Nossa equipe qualificada e experiente está à disposição para oferecer um serviço ágil e eficiente. Conte conosco!"
+                </p>
+            </div>
 		</div>
         <div  class="p-4" style="font-size: 0.8rem;">
             <p>Gileade Despachante - &copy;2023  -  Desenvolvido por <a style="text-decoration:none; color:#fff;" href="https://www.instagram.com/showmediaart/" target="_blank" rel="noopener noreferrer">Show Media</a> </p>
