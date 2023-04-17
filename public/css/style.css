@@ -309,7 +309,26 @@ nav {
     cursor: context-menu !important;
   }
 
- 
+  .menu-mobile{
+    background-color: #fff;
+    opacity: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(100%,0);
+    width: 85vw;
+    min-height: 100vh;
+    z-index: 9999;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 3, 0.2);
+    display: block;
+  }
+
+  nav .menu-mobile.active{
+    transform: translate(0,0);
+    opacity: 1;
+    transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+    transition: -webkit-transform 0.8s ease-out, opacity 0.8s ease-out;
+  }
 
 
 
