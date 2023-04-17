@@ -29,32 +29,67 @@
     <a href="#"><img src="img/logo2.jpeg" alt="Logo"></a>
   </div>
   <ul class="menu" id="elemento-hover">
-    <li><a >Categoria 1</a> 
+    <li class="nav-link"><a >Categoria 1</a> 
         <ul id="elemento-animado">
             <li>link cat 1</li>
             <li>link cat 1</li>
         </ul>
     </li>
-    <li><a >Categoria 2</a>
-        <ul id="elemento-animado">
-            <li>Link cat 2</li>
-            <li>Link cat 2</li>
+    <li class="nav-link"><a >Serviços</a>
+        <ul class="elemento-animado" >
+            <div class="col-12 row p-2">
+                <div class="text-start col-6">
+                    <a href=""><li class="p-2"><span>Blog</span></li></a>
+                    <a href=""><li class="p-2"><span>Perguntas</span></li></a>
+                </div>
+                <div class="text-start col-6" style="border-left: 1px solid #ddd;">
+                    <a href=""><li class="p-2"><ion-icon name="logo-instagram"></ion-icon> <span>Instagram</span> </li></a>
+                    <a href=""><li class="p-2"><ion-icon name="logo-whatsapp"></ion-icon> <span>Whatsapp</span></li></a>
+                <div>
+            </div>
         </ul>
     </li>
-    <li><a >Comunidade</a>
-        <ul id="elemento-animado" >
-            <div class="d-flex">
-            <div class="flex-fill">
-               
-               <li>Blog</li>
-               <li>Perguntas</li>
-           </div>
-           <div>
-              
-                   <li> <ion-icon name="logo-instagram"></ion-icon> Instagram </li>
-                   <li> <ion-icon name="logo-whatsapp"></ion-icon> Whatsapp</li>
-              
-           <div>
+    <li class="nav-link"><a >Vencimentos</a>
+        <ul class="elemento-animado" style="width: 40vw;">
+            <div class="col-12 row p-2">
+                <button class="col-6 button active"><ion-icon name="car-sport-outline"></ion-icon> <span>Carro/Moto</span></button>
+                <button class="col-6 button"><ion-icon name="bus-outline"></ion-icon> <span>Caminhão</span></button>
+            </div>
+            <div class="col-12 row p-2 ven ven-car" style="border-top: 1px solid #eee;">
+                <div class="text-start col-6">
+                    <li class="p-2" style="font-weight:bold;">Mês Licenciamento</li>
+                    <li class="p-2">Jan até Jun</li>
+                    <li class="p-2">Julho</li>
+                    <li class="p-2">Agosto</li>
+                    <li class="p-2">Setembro</li>
+                    <li class="p-2">Outubro</li>
+                    <li class="p-2">Novembro</li>
+                    <li class="p-2">Dezembro</li>
+                </div>
+                <div class="text-start col-6" style="border-left: 1px solid #ddd;">
+                    <li class="p-2" style="font-weight:bold;">Final Placa</li>
+                    <li class="p-2">IPVA</li>
+                    <li class="p-2">Final 1 e 2</li>
+                    <li class="p-2">Final 3 e 4</li>
+                    <li class="p-2">Final 5 e 6</li>
+                    <li class="p-2">Final 7 e 8</li>
+                    <li class="p-2">Final 9</li>
+                    <li class="p-2">Final 0</li>
+                <div>
+            </div>
+        </ul>
+    </li>
+    <li class="nav-link"><a >Comunidade</a>
+        <ul class="elemento-animado" >
+            <div class="col-12 row p-2">
+                <div class="text-start col-6">
+                    <a href=""><li class="p-2"><span>Blog</span></li></a>
+                    <a href=""><li class="p-2"><span>Perguntas</span></li></a>
+                </div>
+                <div class="text-start col-6" style="border-left: 1px solid #ddd;">
+                    <a href=""><li class="p-2"><ion-icon name="logo-instagram"></ion-icon> <span>Instagram</span> </li></a>
+                    <a href=""><li class="p-2"><ion-icon name="logo-whatsapp"></ion-icon> <span>Whatsapp</span></li></a>
+                <div>
             </div>
         </ul>
     </li>
@@ -102,7 +137,7 @@
 			<div class="flex-fill" style="text-align: left;">
                 <h5>Endereço</h5>
                 <p class="mt-4" style="font-size: 0.9rem">
-                    Rua Muritiba, 544 - Jd Pres Dutra <br>
+                    Rua Muritiba, 304 - Jd Pres Dutra <br>
                     Guarulhos-SP
                 </p>
             </div>

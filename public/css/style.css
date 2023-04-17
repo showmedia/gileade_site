@@ -146,7 +146,8 @@ nav {
     margin: 0;
     padding: 20px;
     box-shadow: 4px 0px 7px rgba(0, 0, 3, 0.2);
-    z-index: 999;
+    z-index: 9999;
+    pointer-events: none;
   }
 
   nav .menu ul::after {
@@ -174,10 +175,11 @@ nav {
     z-index: 999;
   }
 
-  nav .menu li:hover ul {
+  nav .menu .nav-link:hover > ul {
     opacity: 1;
     transform: translate(-50%, 0px);
     transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+    pointer-events: auto;
   }
 
  
@@ -220,6 +222,76 @@ nav {
 
   nav button:hover{
     background-color: #dfb453;
+  }
+
+  .elemento-animado li{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+  .elemento-animado li span{
+    position: relative;
+  }
+  .elemento-animado li ion-icon{
+    margin-right: 10px;
+  }
+  .elemento-animado li span::before{
+    content: "";
+    opacity: 0;
+    position: absolute;
+    right: -10px; /* ajuste a posição horizontal da seta */
+    top: 30%; /* ajuste a posição vertical da seta */
+    transform: translate(-50%, 0) rotate(-45deg); /* centralize a seta verticalmente */
+    border-top: 10px solid transparent; /* defina a largura da seta */
+    border-right: 10px solid #004e87; /* defina a cor da seta */
+  }
+
+  .elemento-animado li:hover > span::before{
+    opacity: 1;
+    transform: translate(0, 0) rotate(-45deg);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+
+  .elemento-animado li:hover {
+    cursor: pointer;
+  }
+
+  nav .elemento-animado a{
+    color: #252525 !important;
+  }
+
+  nav .elemento-animado a:hover{
+    color: #004e87 !important;
+    transition: 0.5s;
+  }
+
+  nav .elemento-animado button{
+    border-radius: 0;
+    background-color: transparent;
+    color: #252525;
+    font-weight: bold;
+    border: #ddd;
+    text-align: center;
+  }
+  nav .elemento-animado button:hover{
+    background-color: #e0cb9b;
+    opacity: 0.8;
+    transition: 0.2s;
+  }
+
+  nav .elemento-animado button.active{
+    color: #004e87;
+    background-color: #e0cb9b;
+    opacity: 0.8;
+    transition: 0.2s;
+  }
+
+  nav .elemento-animado button span{
+    margin-left: 5px;
+  }
+
+  nav .elemento-animado .ven li{
+    cursor: context-menu !important;
   }
 
 
