@@ -198,8 +198,6 @@ nav {
     transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   }
 
- 
-  
   nav .menu ul li {
     margin: 0;
   }
@@ -211,6 +209,7 @@ nav {
     height: 1.2rem;
     width: 1.2rem;
     cursor: pointer;
+    z-index: 9999;
   }
   
   nav .toggle-button span {
@@ -309,6 +308,8 @@ nav {
   nav .elemento-animado .ven li{
     cursor: context-menu !important;
   }
+
+ 
 
 
 

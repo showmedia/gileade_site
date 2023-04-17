@@ -21,4 +21,7 @@ $(document).ready(function() {
     $(".ven-truck").hide();
     $(".ven-car").fadeIn();
   })
+  $(".toggle-button").click(function(){
+    $(".menu-mobile").addClass('active');
+  });
 });

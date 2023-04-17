@@ -117,6 +117,94 @@
     <span></span>
     <span></span>
   </div>
+
+    <nav class="menu-mobile">
+    <ul id="elemento-hover">
+  <li class="nav-link2"><a href="" style="cursor:pointer;">Sobre Nós</a></li>
+    <li class="nav-link"><a >Serviços</a>
+        <ul class="elemento-animado" style="width: 40vw;">
+            <div class="col-12 row p-2">
+                <div class="text-start col-6">
+                    <a href=""><li class="p-2"><span>Licenciamento</span></li></a>
+                    <a href=""><li class="p-2"><span>Transferência</span></li></a>
+                    <a href=""><li class="p-2"><span>Isenção de IPVA PCD</span></li></a>
+                    <a href=""><li class="p-2"><span>Primeiro emplacamento</span></li></a>
+                    <a href=""><li class="p-2"><span>Segunda via CRV</span></li></a>
+                </div>
+                <div class="text-start col-6" style="border-left: 1px solid #ddd;">
+                    <a href=""><li class="p-2"><span>Legalização carro rebaixado</span></li></a>
+                    <a href=""><li class="p-2"><span>Desbloqueio de sinistro</span></li></a>
+                    <a href=""><li class="p-2"><span>Regularização de motor</span></li></a>
+                    <a href=""><li class="p-2"><span>Registro ANTT</span></li></a>
+                    <a href=""><li class="p-2"><span>Blindagem de veículos</span></li></a>
+                <div>
+            </div>
+        </ul>
+    </li>
+    <li class="nav-link"><a >Vencimentos</a>
+        <ul class="elemento-animado" style="width: 40vw;">
+            <div class="col-12 row p-2">
+                <button class="col-6 button active" id="add-car"><ion-icon name="car-sport-outline"></ion-icon> <span>Carro/Moto</span></button>
+                <button class="col-6 button" id="add-truck"><ion-icon name="bus-outline"></ion-icon> <span>Caminhão</span></button>
+            </div>
+            <div class="col-12 row p-2 ven ven-car" style="border-top: 1px solid #eee;">
+                <div class="text-start col-6">
+                    <li class="p-2" style="font-weight:bold;">Mês Licenciamento</li>
+                    <li class="p-2">Jan até Jun</li>
+                    <li class="p-2">Julho</li>
+                    <li class="p-2">Agosto</li>
+                    <li class="p-2">Setembro</li>
+                    <li class="p-2">Outubro</li>
+                    <li class="p-2">Novembro</li>
+                    <li class="p-2">Dezembro</li>
+                </div>
+                <div class="text-start col-6" style="border-left: 1px solid #ddd;">
+                    <li class="p-2" style="font-weight:bold;">Final Placa</li>
+                    <li class="p-2">IPVA</li>
+                    <li class="p-2">Final 1 e 2</li>
+                    <li class="p-2">Final 3 e 4</li>
+                    <li class="p-2">Final 5 e 6</li>
+                    <li class="p-2">Final 7 e 8</li>
+                    <li class="p-2">Final 9</li>
+                    <li class="p-2">Final 0</li>
+                </div>
+            </div>
+            <div class="col-12 row p-2 ven ven-truck" style="border-top: 1px solid #eee;">
+                <div class="text-start col-6">
+                    <li class="p-2" style="font-weight:bold;">Mês Licenciamento</li>
+                    <li class="p-2">Jan até Setembro</li>
+                    <li class="p-2">Outubro</li>
+                    <li class="p-2">Novembro</li>
+                    <li class="p-2">Dezembro</li>
+                </div>
+                <div class="text-start col-6" style="border-left: 1px solid #ddd;">
+                    <li class="p-2" style="font-weight:bold;">Final Placa</li>
+                    <li class="p-2">IPVA</li>
+                    <li class="p-2">Final 1,2,3 e 4</li>
+                    <li class="p-2">Final 5,6 e 7</li>
+                    <li class="p-2">Final 8,9 e 0</li>
+                </div>
+            </div>
+        </ul>
+    </li>
+    <li class="nav-link"><a >Comunidade</a>
+        <ul class="elemento-animado" >
+            <div class="col-12 row p-2">
+                <div class="text-start col-6">
+                    <a href=""><li class="p-2"><span>Blog</span></li></a>
+                    <a href=""><li class="p-2"><span>Perguntas</span></li></a>
+                </div>
+                <div class="text-start col-6" style="border-left: 1px solid #ddd;">
+                    <a href=""><li class="p-2"><ion-icon name="logo-instagram"></ion-icon> <span>Instagram</span> </li></a>
+                    <a href=""><li class="p-2"><ion-icon name="logo-whatsapp"></ion-icon> <span>Whatsapp</span></li></a>
+                <div>
+            </div>
+        </ul>
+    </li>
+  </ul>
+  <button><ion-icon name="search-outline"></ion-icon> Consultar Veículo</button>
+    </nav>
+
 </nav>
             
             </header>
