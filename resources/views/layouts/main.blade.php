@@ -160,7 +160,7 @@
             </div>
             <div class="flex-fill apresenta" style="text-align: left; max-width: 250px; font-size: 0.8rem">
                 <p>
-                    "Somos um escritório de despachante dedicado, responsável e profissional, preparado para ajudá-lo em todas as suas necessidades. Nossa equipe qualificada e experiente está à disposição para oferecer um serviço ágil e eficiente. Conte conosco!"
+                "Com mais de 20 anos de experiência no mercado, somos um escritório de despachante dedicado, responsável e profissional, preparado para ajudá-lo em todas as suas necessidades. Nossa equipe qualificada e experiente está à disposição para oferecer um serviço ágil e eficiente. Conte conosco!"
                 </p>
             </div>
 		</div>
