@@ -28,13 +28,39 @@
   <div class="logo">
     <a href="#"><img src="img/logo2.jpeg" alt="Logo"></a>
   </div>
-  <ul class="menu">
-    <li><a >Categoria 1</a></li>
-    <li><a >Categoria 2</a></li>
-    <li><a >Categoria 3</a></li>
+  <ul class="menu" id="elemento-hover">
+    <li><a >Categoria 1</a> 
+        <ul id="elemento-animado">
+            <li>link cat 1</li>
+            <li>link cat 1</li>
+        </ul>
+    </li>
+    <li><a >Categoria 2</a>
+        <ul id="elemento-animado">
+            <li>Link cat 2</li>
+            <li>Link cat 2</li>
+        </ul>
+    </li>
+    <li><a >Comunidade</a>
+        <ul id="elemento-animado" >
+            <div class="d-flex">
+            <div class="flex-fill">
+               
+               <li>Blog</li>
+               <li>Perguntas</li>
+           </div>
+           <div>
+              
+                   <li> <ion-icon name="logo-instagram"></ion-icon> Instagram </li>
+                   <li> <ion-icon name="logo-whatsapp"></ion-icon> Whatsapp</li>
+              
+           <div>
+            </div>
+        </ul>
+    </li>
   </ul>
   <button><ion-icon name="search-outline"></ion-icon> Consultar Veículo</button>
-  <div class="toggle-button bg-danger">
+  <div class="toggle-button">
     <span></span>
     <span></span>
     <span></span>

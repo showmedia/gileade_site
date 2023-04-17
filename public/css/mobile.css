@@ -1,4 +1,4 @@
-@media (max-width:1080px) {
+@media (max-width:768px) {
     footer img{
         width: 30vw;
     }
@@ -28,19 +28,16 @@
         padding: 5vh;
     }
 
-    .logo img {
-        max-width: 15vw;  
+    nav .logo img {
+        max-width: 15vw !important;  
     }
     .toggle-button {
-        display: flex !important;
+        display: block !important;
     }
     .menu{
+        display: none !important;
+    }
+    nav button{
         display: none;
     }
 }
-
-@media screen and (min-width: 768px) {
-    .toggle-button {
-      display: none;
-    }
-  }
