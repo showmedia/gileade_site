@@ -12,6 +12,13 @@ buttons.forEach(button => {
   });
 });
 $(document).ready(function() {
-
-  
+  $(".ven-truck").hide();
+  $("#add-truck").click(function(){
+    $(".ven-car").hide();
+    $(".ven-truck").fadeIn();
+  });
+  $("#add-car").click(function(){
+    $(".ven-truck").hide();
+    $(".ven-car").fadeIn();
+  })
 });

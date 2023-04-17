@@ -175,11 +175,27 @@ nav {
     z-index: 999;
   }
 
-  nav .menu .nav-link:hover > ul {
+  nav .menu li:hover > ul {
     opacity: 1;
     transform: translate(-50%, 0px);
     transition: opacity 0.4s ease-out, transform 0.4s ease-out;
     pointer-events: auto;
+  }
+
+  nav .menu .nav-link2 a::before{
+    content: "";
+    opacity: 0;
+    position: absolute;
+    right: -10px; /* ajuste a posição horizontal da seta */
+    top: 40%; /* ajuste a posição vertical da seta */
+    transform: translate(-100%, 0) rotate(-45deg); /* centralize a seta verticalmente */
+    border-top: 10px solid transparent; /* defina a largura da seta */
+    border-right: 10px solid #004e87; /* defina a cor da seta */
+  }
+  nav .menu .nav-link2:hover > a::before{
+    opacity: 1;
+    transform: translate(-70%, 0) rotate(-45deg);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   }
 
  
