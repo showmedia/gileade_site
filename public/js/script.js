@@ -11,6 +11,20 @@ buttons.forEach(button => {
     button.classList.add('active');
   });
 });
+
+//nav fixed quando der scroll
+const nav = document.getElementById('nav');
+const halfScreenHeight = window.innerHeight / 2;
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 0) {
+    nav.classList.add('nav-fixed');
+  }else{
+    nav.classList.remove('nav-fixed');
+  }
+ 
+});
+
 $(document).ready(function() {
   $(".ven-truck").hide();
   $("#add-truck").click(function(){
