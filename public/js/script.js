@@ -27,6 +27,17 @@ window.addEventListener('scroll', () => {
 
 $(document).ready(function() {
   $(".ven-truck").hide();
+  $(".none-truck").hide();
+  $('.none-car').hide();
+
+  $("#li-truck").click(function(){
+    $(".none-car").slideUp();
+    $('.none-truck').slideDown();
+  });
+  $("#li-car").click(function(){
+    $('.none-truck').slideUp();
+    $('.none-car').slideDown();
+  })
   $("#add-truck").click(function(){
     $(".ven-car").hide();
     $(".ven-truck").fadeIn();

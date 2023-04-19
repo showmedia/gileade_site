@@ -139,6 +139,7 @@
         
             <li class="" id="li-car"><ion-icon name="car-sport-outline"></ion-icon> <span>Carro/Moto</span>
                
+                <ul class="none-car">
                     <li>Jan até Jun - IPVA</li>
                     <li>Julho - Final 1 e 2</li>
                     <li>Agosto - Final 3 e 4</li>
@@ -146,15 +147,16 @@
                     <li>Outubro - Final 7 e 8</li>
                     <li>Novembro - Final 9</li>
                     <li>Dezembro - Final 0</li>
+                </ul>
                 
             </li>
             <li class="" id="li-truck"><ion-icon name="bus-outline"></ion-icon> <span>Caminhão</span>
-                
+                <ul class="none-truck">  
                     <li>Jan até Set - IPVA</li>
                     <li>Outubro - 1,2,3 e 4</li>
                     <li>Novembro - 5,6 e 7</li>
                     <li>Dezembro - 8,9 e 0</li>
-              
+                </ul>
             </li>
         
     </li>
