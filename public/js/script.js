@@ -1,4 +1,3 @@
-
 const buttons = document.querySelectorAll('.button');
 
 // Adiciona o evento de clique a cada botão
@@ -25,8 +24,23 @@ window.addEventListener('scroll', () => {
  
 });
 
+function clicar(id){
+  alert(id);
+}
+
 $(document).ready(function() {
   $(".ven-truck").hide();
+  $(".none-truck").hide();
+  $('.none-car').hide();
+
+  $("#li-truck").click(function(){
+    $(".none-car").slideUp();
+    $('.none-truck').slideDown();
+  });
+  $("#li-car").click(function(){
+    $('.none-truck').slideUp();
+    $('.none-car').slideDown();
+  })
   $("#add-truck").click(function(){
     $(".ven-car").hide();
     $(".ven-truck").fadeIn();
@@ -34,8 +48,13 @@ $(document).ready(function() {
   $("#add-car").click(function(){
     $(".ven-truck").hide();
     $(".ven-car").fadeIn();
-  })
+  });
+
   $(".toggle-button").click(function(){
     $(".menu-mobile").addClass('active');
   });
+  $(".close").click(function(){
+    $('.menu-mobile').removeClass('active');
+  });
+ 
 });

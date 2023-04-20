@@ -119,9 +119,10 @@
   </div>
 
     <nav class="menu-mobile">
+        <span class="close">X</span>
     <ul id="elemento-hover">
   <li class="nav-link2"><a href="" style="cursor:pointer;">Sobre Nós</a></li>
-    <li class="nav-link"><a >Serviços</a>
+    <li class="nav-link titulo"><a >Serviços</a>
        
                 <a href=""><li><span>Licenciamento</span></li></a>
                 <a href=""><li><span>Transferência</span></li></a>
@@ -135,10 +136,11 @@
                 <a href=""><li><span>Blindagem de veículos</span></li></a>
        
     </li>
-    <li class="nav-link"><a >Vencimentos</a>
+    <li class="nav-link titulo"><a >Vencimentos</a>
         
-            <li class="" id="li-car"><ion-icon name="car-sport-outline"></ion-icon> <span>Carro/Moto</span>
+            <li class="hover" id="li-car"><ion-icon name="car-sport-outline"></ion-icon> <span>Carro/Moto <ion-icon name="arrow-forward-outline"></ion-icon></span>
                
+                <ul class="none-car">
                     <li>Jan até Jun - IPVA</li>
                     <li>Julho - Final 1 e 2</li>
                     <li>Agosto - Final 3 e 4</li>
@@ -146,28 +148,30 @@
                     <li>Outubro - Final 7 e 8</li>
                     <li>Novembro - Final 9</li>
                     <li>Dezembro - Final 0</li>
+                </ul>
                 
             </li>
-            <li class="" id="li-truck"><ion-icon name="bus-outline"></ion-icon> <span>Caminhão</span>
-                
+            <li class="hover" id="li-truck"><ion-icon name="bus-outline"></ion-icon> <span>Caminhão <ion-icon name="arrow-forward-outline"></ion-icon></span>
+                <ul class="none-truck">  
                     <li>Jan até Set - IPVA</li>
                     <li>Outubro - 1,2,3 e 4</li>
                     <li>Novembro - 5,6 e 7</li>
                     <li>Dezembro - 8,9 e 0</li>
-              
+                </ul>
             </li>
         
     </li>
-    <li class="nav-link"><a >Comunidade</a>
+    <li class="nav-link titulo"><a >Comunidade</a>
         
             <a href=""><li ><span>Blog</span></li></a>
-            <a href=""><li ><span>Perguntas</span></li></a>
+            <a href="#"><li onclick="clicar('#perguntas');"><span>Perguntas</span></li></a>
             <a href=""><li ><ion-icon name="logo-instagram"></ion-icon> <span>Instagram</span> </li></a>
             <a href=""><li ><ion-icon name="logo-whatsapp"></ion-icon> <span>Whatsapp</span></li></a>
      
     </li>
   </ul>
   <button><ion-icon name="search-outline"></ion-icon> Consultar Veículo</button>
+  <br><br>
     </nav>
 </nav>
             
