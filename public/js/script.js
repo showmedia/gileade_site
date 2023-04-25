@@ -28,6 +28,22 @@ function clicar(id){
   alert(id);
 }
 
+var i = 0;
+var txt = 'Consultar os débitos do seu veículo nunca foi tão fácil! Agora, tudo está na palma da sua mão!';
+var speed = 30;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("anim-typewriter").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
+window.onload = function() {
+  typeWriter();
+}
+
 $(document).ready(function() {
   $(".ven-truck").hide();
   $(".none-truck").hide();
@@ -57,4 +73,5 @@ $(document).ready(function() {
     $('.menu-mobile').removeClass('active');
   });
  
+  $("#celular").mask('(99)99999-9999');
 });

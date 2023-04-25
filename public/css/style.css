@@ -373,10 +373,134 @@ nav .elemento-animado .ven li{
   .search-top {
     width: 100%;
     min-height: 70vh;
-    background-color: #36096d;
     background-image: linear-gradient(315deg, #004e87 0%, #197e7e 74%);
+    position: relative;
+    overflow: hidden;
   }
 
+  .search-top img{
+    width: 25%;
+    position: absolute;
+    left: 10%;
+  }
+
+  .f-right{
+    float: right;
+    width: 65%;
+    padding: 5%;
+  }
+
+  .f-right h1{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .f-right form{
+    margin-top: 50px;
+    display: flex;
+    position: absolute;
+    bottom: 120px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: transparent;
+    border:1px solid #fff;
+    border-radius: 25px;
+    width: 110vh;
+    padding: 10px;
+  }
+
+  .f-right input{
+    background-color: transparent;
+    border: none;
+    color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .f-right input:focus, .f-right input:active{
+    outline: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .f-right #placa{
+    width: 35%;
+  }
+
+  .f-right input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .f-right button{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 7px;
+    border-radius: 7px;
+  }
+
+  .f-right button:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #004e87;
+    transition: 0.3s;
+  }
+
+  #anim-typewriter {
+    overflow: hidden;
+    white-space: wrap;
+  }
+
+  .fade-in-left{
+    opacity: 0; /* começa com opacidade 0 */
+    animation: slide-in 1s forwards, fade-in 1s forwards; /* animações com duração de 1 segundo, e ambas aplicadas ao mesmo tempo */
+  }
+
+  .fade-in-up{
+    opacity: 0; /* começa com opacidade 0 */
+    animation: slide-in-up 1s forwards, fade-in 1s forwards; /* animações com duração de 1 segundo, e ambas aplicadas ao mesmo tempo */
+  }
+
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%); /* começa na posição 100% à direita */
+    }
+    to {
+      transform: translateX(0); /* termina na posição original */
+    }
+  }
+
+  @keyframes slide-in-up {
+    from {
+      transform: translateY(100%); /* começa na posição 100% à direita */
+    }
+    to {
+      transform: translateX(0); /* termina na posição original */
+    }
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0; /* começa com opacidade 0 */
+    }
+    to {
+      opacity: 1; /* termina com opacidade 1 */
+    }
+  }
+
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 14em;
+    }
+  }
 
 
 .menu-mobile{
@@ -416,4 +540,5 @@ nav .menu-mobile.active{
   width: 100%;
   transition: 0.5s ease-in-out;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
 }

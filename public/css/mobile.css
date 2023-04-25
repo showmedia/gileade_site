@@ -73,8 +73,7 @@
     }
     .menu-mobile ul li span{
         margin-left: 7px;
-<<<<<<< HEAD
-=======
+
     }
     .menu-mobile ul li ul{
         margin-top: 0px;
@@ -93,7 +92,7 @@
     }
     .menu-mobile .hover:hover{
         cursor: pointer;
->>>>>>> d08bfdc6b62183af3389cadcdebfa790174e6ad3
+
     }
     .menu-mobile ul li ul{
         margin-top: 0px;
@@ -112,6 +111,31 @@
     }
     .menu-mobile .hover:hover{
         cursor: pointer;
+    }
+
+    .search-top img{
+        bottom: 0;
+        width: 50%;
+        left: -40px;
+    }
+
+    .f-right{
+        width: 100%;
+    }
+
+    .f-right h1 {
+        font-size: 1.6rem;
+        width: 60%;
+        font-weight: 500;
+        float: right;
+        text-align: right;
+        margin-top: 50px;
+    }
+
+    .f-right form{
+        width: 90vh;
+        left: 5vh;
+        bottom: 80px;
     }
    
 
