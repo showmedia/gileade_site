@@ -18,8 +18,6 @@ const halfScreenHeight = window.innerHeight / 2;
 window.addEventListener('scroll', () => {
   if (window.scrollY > 0) {
     nav.classList.add('nav-fixed');
-  }else{
-    nav.classList.remove('nav-fixed');
   }
  
 });

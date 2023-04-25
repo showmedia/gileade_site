@@ -16,7 +16,7 @@
 
 
     <section class="contact-online">
-        <div class="banner"><p>Olá! Eu posso te ajudar?</p></div>
+        <div class="banner">Olá! Eu posso te ajudar?</div>
         <div class="img-contact"></div>
     </section>
 @endsection
