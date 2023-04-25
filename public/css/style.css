@@ -635,3 +635,45 @@ nav .menu-mobile.active{
   }
 }
 
+#servicos{
+  width: 100%;
+  padding: 50px 15%;
+}
+
+#servicos .linha{
+  width: 100%;
+  display: flex;
+}
+
+#servicos .linha .iten{
+  width: 50%;
+  margin: 10px;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+#servicos .linha .iten ion-icon{
+  font-size: 3rem;
+  background-color: #faebe9;
+  padding: 10px;
+  border-radius: 50px;
+  color: #004e87;
+  margin-right: 20px;
+}
+
+#servicos .linha .iten h2{
+  font-size: 1.2rem;
+  color: #004e87;
+  font-weight: bold;
+}
+
+#servicos .linha .iten p{
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #5e5d5d;
+}
+
+
+

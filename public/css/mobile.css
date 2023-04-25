@@ -163,9 +163,14 @@
         bottom: 10px;
         display: flex;
         align-content: flex-end !important;
+        z-index: 9999;
     }
-
-    
+    #servicos .linha{
+        display: block;
+    }
+    #servicos .linha .iten{
+        width: 100%;
+      }    
    
 
 }

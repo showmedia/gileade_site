@@ -13,7 +13,6 @@ buttons.forEach(button => {
 
 //nav fixed quando der scroll
 const nav = document.getElementById('nav');
-const halfScreenHeight = window.innerHeight / 2;
 
 window.addEventListener('scroll', () => {
   if (window.scrollY > 0) {
@@ -45,6 +44,11 @@ window.onload = function() {
 }
 
 $(document).ready(function() {
+
+  $(".contact-online").click(function(){
+    alert('teste');
+  });
+
   $(".ven-truck").hide();
   $(".none-truck").hide();
   $('.none-car').hide();
