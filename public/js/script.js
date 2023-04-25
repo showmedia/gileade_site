@@ -25,6 +25,10 @@ window.addEventListener('scroll', () => {
  
 });
 
+function clicar(id){
+  alert(id);
+}
+
 $(document).ready(function() {
   $(".ven-truck").hide();
   $(".none-truck").hide();
@@ -45,8 +49,13 @@ $(document).ready(function() {
   $("#add-car").click(function(){
     $(".ven-truck").hide();
     $(".ven-car").fadeIn();
-  })
+  });
+
   $(".toggle-button").click(function(){
     $(".menu-mobile").addClass('active');
   });
+  $(".close").click(function(){
+    $('.menu-mobile').removeClass('active');
+  });
+ 
 });
