@@ -114,9 +114,9 @@
     }
 
     .search-top img{
-        bottom: 0;
         width: 50%;
-        left: -40px;
+        left: -40px !important;
+        top: 50px;
     }
 
     .f-right{
@@ -133,9 +133,14 @@
     }
 
     .f-right form{
-        width: 90vh;
-        left: 5vh;
+        width: 80vh;
+        left: 50%;
+        transform: translateX(-50%) !important;
         bottom: 80px;
+    }
+
+    .f-right input::placeholder{
+        font-size: 0.8rem;
     }
    
 

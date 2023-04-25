@@ -379,9 +379,10 @@ nav .elemento-animado .ven li{
   }
 
   .search-top img{
-    width: 25%;
+    width: 330px;
     position: absolute;
     left: 10%;
+    top:10px;
   }
 
   .f-right{
@@ -394,7 +395,7 @@ nav .elemento-animado .ven li{
     color: #fff;
     font-size: 2rem;
     font-weight: bold;
-    margin-top: 60px;
+    margin-top: 30px;
     text-align: center;
   }
 
