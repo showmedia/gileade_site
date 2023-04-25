@@ -475,6 +475,14 @@ nav .elemento-animado .ven li{
       transform: translateX(0); /* termina na posição original */
     }
   }
+  @keyframes slide-in-right {
+    from {
+      transform: translateX(100%); /* começa na posição 100% à direita */
+    }
+    to {
+      transform: translateX(0); /* termina na posição original */
+    }
+  }
 
   @keyframes slide-in-up {
     from {
@@ -543,3 +551,103 @@ nav .menu-mobile.active{
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 9999;
 }
+
+.contact-online{
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  width: 30vw;
+  opacity: 0;
+  z-index: 9999;
+  animation: fade-in 2s ease-in-out;
+  animation-delay: 7s;
+  animation-fill-mode: forwards;
+}
+
+.contact-online:hover{
+  cursor: pointer;
+}
+
+.contact-online .banner{
+  width: 70%;
+  margin-right: 20px;
+  padding: 20px;
+  height: 65px;
+  border-radius: 5px;
+  color: #252525;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  font-weight: 500;
+  position: relative;
+  animation: slide-in-right 0.5s ease-in-out;
+  animation-delay: 7s;
+}
+
+.contact-online .banner::before{
+  content: '';
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  right: -7px;
+  top: 40%;
+  transform: translate(0,-50%);
+  transform: rotate(45deg);
+}
+
+.contact-online .img-contact{
+  width: 65px;
+  height: 65px;
+  border-radius: 50px;
+  position: relative;
+  background-image: url('/img/img-contact.png');
+  background-color: #197e7e;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 120%;
+  animation: contact 10s ease-in-out infinite;
+  animation-delay: 7s;
+}
+
+.contact-online .img-contact::before{
+  content: "";
+  background-color: #2ecc71;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+@keyframes contact {
+  0%{
+    transform: scale(0.7);
+  }
+  2%{
+    transform: scale(1.1);
+  }
+  4%{
+    transform: scale(0.9);
+  }
+  6%{
+    transform: scale(1.1);
+  }
+  8%{
+    transform: scale(0.9);
+  }
+  10%{
+    transform: scale(1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+

@@ -12,4 +12,11 @@
             </form>
         </div>
     </section>
+
+
+
+    <section class="contact-online">
+        <div class="banner"><p>Olá! Eu posso te ajudar?</p></div>
+        <div class="img-contact"></div>
+    </section>
 @endsection
