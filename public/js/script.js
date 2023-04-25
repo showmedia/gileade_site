@@ -1,4 +1,3 @@
-
 const buttons = document.querySelectorAll('.button');
 
 // Adiciona o evento de clique a cada botão
