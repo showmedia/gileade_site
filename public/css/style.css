@@ -345,23 +345,7 @@ nav .elemento-animado .ven li{
     font-weight: 500;
   }
 
-  nav .menu-mobile.active{
-    transform: translate(0,0);
-    opacity: 1;
-    transition: transform 0.8s ease-out, opacity 0.8s ease-out;
-    transition: -webkit-transform 0.8s ease-out, opacity 0.8s ease-out;
-  }
-
-  .nav-fixed{
-    background-color: rgba(255, 255, 255, 0.5);
-    position: fixed;
-    padding: 0 20px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    transition: 0.5s ease-in-out;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
+ 
 
 
   /*main*/
