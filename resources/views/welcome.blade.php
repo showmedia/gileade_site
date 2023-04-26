@@ -48,7 +48,32 @@
         </div>
     </section>
 
+    <section id="parcelas">
+        <div class="title">
+            <h1>Procurando uma forma de parcelar o seu documento? Aqui temos o que você precisa.</h1>
+        </div>
+        <div class='txt'>
+            <p>
+                <span >Pague com facilidade em até</span> <br> <strong>12x</strong>
+            </p>
+        </div>
+    </section>
 
+    <section id="ipva">
+        <div class="f-left">
+            <div class="d-block">
+            <h2>Atrasou o IPVA?</h2>
+            <span id="anim-typewriter2"></span>
+            <div class="imgs">
+                <img src="/img/detran.png" alt="">
+                <img src="/img/rendimento.png" alt="">
+            </div>
+            <a href="">Eu quero FACILIDADE</a>
+            </div>
+            
+        </div>
+        <img class="img-gile" src="/img/img-pens.png" alt="">
+    </section>
 
     <div class="contact-online">
         <div class="banner">Olá! Eu posso te ajudar?</div>
