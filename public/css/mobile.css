@@ -196,4 +196,12 @@
         justify-items: center;
     }
 
+    #ipva .img-gile{
+        display: none;
+    }
+
+    #ipva .f-left{
+        width: 100%;
+      }
+
 }
