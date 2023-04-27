@@ -13,7 +13,8 @@ class ConsultaController extends Controller
         $contato = new Contato;
         $cliente = new Cliente;
         $veiculo = new Veiculo;
-        $veiculo->modelo = 'nao cadastrado';
+        $veiculo->modelo = 'Não cadastrado';
+        $cliente->name = 'Não cadastrado';
 
         $placa = $request->placa;
         $celular = $request->celular;
