@@ -40,7 +40,7 @@
     .menu{
         display: none !important;
     }
-    nav button{
+    nav .btn-search {
         display: none;
     }
     .menu-mobile {
@@ -177,6 +177,12 @@
     } 
     #parcelas{
         padding: 50px 2%;
+    }
+    #perguntas{
+        padding: 50px 2%;
+    }
+    #quemsomos p{
+        column-count: 1;
     }
     #parcelas p{
         font-size: 1rem;

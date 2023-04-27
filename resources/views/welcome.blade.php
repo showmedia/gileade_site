@@ -1,11 +1,11 @@
 @extends('.layouts.main')
 
 @section('content')
-    <section class="search-top col-12">
+    <section id="search-top" class="search-top col-12">
         <img src="/img/gileade.png" class="fade-in-left" alt="foto Gileade Despachante">
         <div class="f-right">
             <h1 id="anim-typewriter"></h1>
-            <form class="fade-in-up" action="/consultar" method="post">
+            <form class="fade-in-up" action="/consultar" method="get">
                 <input type="text" name="placa" placeholder="Placa ou renavam" required id="placa">
                 <input type="text" name="celular" placeholder="Seu Celular" required id="celular">
                 <button><ion-icon name="search-outline"></ion-icon> Consultar</button>

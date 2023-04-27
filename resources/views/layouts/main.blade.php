@@ -29,7 +29,7 @@
     <a href="#"><img src="img/logo2.png" alt="Logo"></a>
   </div>
   <ul class="menu" id="elemento-hover">
-  <li class="nav-link2"><a href="" style="cursor:pointer;">Sobre Nós</a></li>
+  <li class="nav-link2"><a href="#quemsomos" style="cursor:pointer;">Sobre Nós</a></li>
     <li class="nav-link"><a >Serviços</a>
         <ul class="elemento-animado" style="width: 40vw;">
             <div class="col-12 row p-2">
@@ -100,18 +100,17 @@
         <ul class="elemento-animado" >
             <div class="col-12 row p-2">
                 <div class="text-start col-6">
-                    <a href=""><li class="p-2"><span>Blog</span></li></a>
                     <a href="#perguntas"><li class="p-2"><span>Perguntas</span></li></a>
                 </div>
                 <div class="text-start col-6" style="border-left: 1px solid #ddd;">
-                    <a href=""><li class="p-2"><ion-icon name="logo-instagram"></ion-icon> <span>Instagram</span> </li></a>
-                    <a href=""><li class="p-2"><ion-icon name="logo-whatsapp"></ion-icon> <span>Whatsapp</span></li></a>
+                    <a href="https://www.instagram.com/gileadedespachante/" target="_blanck"><li class="p-2"><ion-icon name="logo-instagram"></ion-icon> <span>Instagram</span> </li></a>
+                    <a href="https://wa.me/5511959658312" target="_blanck"><li class="p-2"><ion-icon name="logo-whatsapp"></ion-icon> <span>Whatsapp</span></li></a>
                 <div>
             </div>
         </ul>
     </li>
   </ul>
-  <button><ion-icon name="search-outline"></ion-icon> Consultar Veículo</button>
+  <a onclick="focu();" class="btn-search"><ion-icon name="search-outline"></ion-icon> Consultar Veículo</a>
   <div class="toggle-button">
     <span></span>
     <span></span>
@@ -120,7 +119,7 @@
     <nav class="menu-mobile">
         <span class="close">X</span>
     <ul id="elemento-hover">
-  <li class="nav-link2"><a href="" style="cursor:pointer;">Sobre Nós</a></li>
+  <li class="nav-link2"><a href="#quemsomos" onclick="ocutar()" style="cursor:pointer;">Sobre Nós</a></li>
     <li class="nav-link titulo"><a >Serviços</a>
        
                 <a href=""><li><span>Licenciamento</span></li></a>
@@ -161,15 +160,12 @@
         
     </li>
     <li class="nav-link titulo"><a >Comunidade</a>
-        
-            <a href=""><li ><span>Blog</span></li></a>
             <a href="#perguntas" onclick="ocutar()"><li><span>Perguntas</span></li></a>
-            <a href=""><li ><ion-icon name="logo-instagram"></ion-icon> <span>Instagram</span> </li></a>
-            <a href=""><li ><ion-icon name="logo-whatsapp"></ion-icon> <span>Whatsapp</span></li></a>
+            <a href="https://www.instagram.com/gileadedespachante/" target="_blanck"><li ><ion-icon name="logo-instagram"></ion-icon> <span>Instagram</span> </li></a>
+            <a href="https://wa.me/5511959658312" target="_blanck"><li ><ion-icon name="logo-whatsapp"></ion-icon> <span>Whatsapp</span></li></a>
      
     </li>
   </ul>
-  <button><ion-icon name="search-outline"></ion-icon> Consultar Veículo</button>
   <br><br>
     </nav>
 </nav>
@@ -177,6 +173,12 @@
             </header>
 
             <main>
+            @if(session('msg'))
+                <div class="msg bg-success-subtle">
+                    <span onclick="fecharmsg()">X</span>
+                    <p>{{session('msg')}}</p>
+                </div>
+            @endif
             
                 @yield('content')
                
@@ -187,13 +189,13 @@
 			<div class="flex-fill">
                 <img src="/img/logobranco.png" alt="logotipo todo branco" class="img">
                 <div class="text-center d-flex social-links p-2" style="width: 0 auto;">
-                    <button href="" target="_blank" rel="whats"><ion-icon name="logo-whatsapp"></ion-icon></button>
-                    <button href="" target="_blank" rel="instagram"><ion-icon name="logo-instagram"></ion-icon></button>
+                    <a href="https://wa.me/5511959658312" target="_blank" rel="whats"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                    <a href="https://www.instagram.com/gileadedespachante/" target="_blank" rel="instagram"><ion-icon name="logo-instagram"></ion-icon></a>
                 </div>
             </div>
 			<div class="flex-fill">
                 <ul>
-                    <li><a href="">Sobre Nós</a></li>
+                    <li><a href="#quemsomos">Sobre Nós</a></li>
                     <li><a href="">Política de Privacidade</a></li>
                     <li><a href="">Termos de Uso</a></li>
                 </ul>
@@ -205,6 +207,7 @@
                 </p>
 
                 <a target="_blanck" href=""> <ion-icon name="logo-whatsapp"></ion-icon> <span class="ms-2">Entrar em contato</span> </a>
+                <a href="https://app.gileadedespachante.com.br"><span class="p-2">Área Restrita</span></a>
             </div>
 			<div class="flex-fill" style="text-align: left;">
                 <h5>Endereço</h5>

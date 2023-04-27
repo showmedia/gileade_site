@@ -49,6 +49,14 @@ function ocutar(){
   $('.menu-mobile').removeClass('active');
 }
 
+function focu(){
+  document.getElementById('placa').focus();
+}
+
+function fecharmsg(){
+  $('.msg').fadeOut();
+}
+
 
 
 $(document).ready(function() {

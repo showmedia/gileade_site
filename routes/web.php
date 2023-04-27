@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WelcomeController;
+use App\Http\Controllers\ConsultaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,5 +14,7 @@ use App\Http\Controllers\WelcomeController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+Route::get('/consultar', [ConsultaController::class, 'consultar']);
 
 Route::get('/', [WelcomeController::class, 'welcome']);

@@ -44,7 +44,7 @@ footer .social-links{
    align-items: center;
 }
 
-footer .social-links button{
+footer .social-links a{
 
     color: #004e87;
     font-size: 1.2rem;
@@ -70,7 +70,7 @@ footer .social-links button{
   z-index: 998;
 }
 
-.social-links button:hover{
+.social-links a:hover{
   background-color: #eee;
 }
 
@@ -240,7 +240,7 @@ nav .toggle-button:hover span{
   background-color: #dfb453;
 }
 
-nav button{
+nav .btn-search{
   display: flex;
   align-items: center;
   border: none;
@@ -250,8 +250,9 @@ nav button{
   padding: 0.5rem;
 }
 
-nav button:hover{
+nav .btn-search:hover{
   background-color: #dfb453;
+  cursor: pointer;
 }
 
 .elemento-animado li{
@@ -314,6 +315,7 @@ nav .elemento-animado button:hover{
 nav .elemento-animado button.active{
   color: #004e87;
   background-color: #e0cb9b;
+  padding: 10px;
   opacity: 0.8;
   transition: 0.2s;
 }
@@ -526,7 +528,7 @@ nav .menu-mobile.active{
 }
 
 .nav-fixed{
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.9);
   position: fixed;
   padding: 0 20px;
   top: 0;
@@ -891,7 +893,7 @@ nav .menu-mobile.active{
   color: #004e87;
   padding: 10px;
   border-radius: 5px;
-  border: 1px solid #004e87;
+  border: 1px solid #004e87 !important;
   font-weight: 600;
 }
 
@@ -899,6 +901,40 @@ nav .menu-mobile.active{
   background-color: #004e87;
   color: #fff;
   transition: 0.7s;
+}
+
+.msg{
+  position: fixed;
+  width: 80%;
+  min-height: 50vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 9999;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 4px 0px 7px rgba(0, 0, 3, 0.2);
+}
+
+.msg span{
+  font-size: 1.2rem;
+  position: fixed;
+  color: #004e87;
+  font-weight: bold;
+  right: 15px;
+  top: 10px;
+}
+
+.msg span:hover{
+  cursor: pointer;
+}
+
+.msg p{
+  font-size: 1.5rem;
 }
 
 
