@@ -101,7 +101,7 @@
             <div class="col-12 row p-2">
                 <div class="text-start col-6">
                     <a href=""><li class="p-2"><span>Blog</span></li></a>
-                    <a href=""><li class="p-2"><span>Perguntas</span></li></a>
+                    <a href="#perguntas"><li class="p-2"><span>Perguntas</span></li></a>
                 </div>
                 <div class="text-start col-6" style="border-left: 1px solid #ddd;">
                     <a href=""><li class="p-2"><ion-icon name="logo-instagram"></ion-icon> <span>Instagram</span> </li></a>
@@ -163,7 +163,7 @@
     <li class="nav-link titulo"><a >Comunidade</a>
         
             <a href=""><li ><span>Blog</span></li></a>
-            <a href="#"><li onclick="clicar('#perguntas');"><span>Perguntas</span></li></a>
+            <a href="#perguntas" onclick="ocutar()"><li><span>Perguntas</span></li></a>
             <a href=""><li ><ion-icon name="logo-instagram"></ion-icon> <span>Instagram</span> </li></a>
             <a href=""><li ><ion-icon name="logo-whatsapp"></ion-icon> <span>Whatsapp</span></li></a>
      

@@ -75,6 +75,22 @@
         <img class="img-gile" src="/img/img-pens.png" alt="">
     </section>
 
+    <section id="quemsomos">
+        <h1>
+            Quem Somos
+        </h1>
+
+        <p>
+        A empresa Gileade Despachante é reconhecida e consolidada no mercado, sendo uma referência em serviços de despachante veicular. Com mais de duas décadas de experiência no ramo, a empresa possui um histórico comprovado de sucesso na solução de problemas relacionados à documentação de veículos. <br> <br>
+
+A nossa equipe é altamente capacitada e treinada para lidar com as mais diversas situações e demandas dos clientes, desde problemas mais simples até questões mais complexas. Com atendimento personalizado e eficiente, a empresa busca oferecer soluções práticas e ágeis para garantir a satisfação dos seus clientes. <br><br>
+
+Possuindo um amplo conhecimento sobre as leis e regulamentações do setor, o que permite oferecer um serviço de alta qualidade e confiabilidade aos seus clientes. Além disso, a empresa investe constantemente em tecnologia e inovação, para aprimorar seus processos e oferecer um serviço ainda mais eficiente e ágil. <br><br>
+
+Dessa forma, se você busca uma empresa de despachante veicular confiável e experiente, a Gileade Despachante é a escolha ideal para solucionar seus problemas com documentação de veículos. Conte com uma equipe altamente capacitada e comprometida em oferecer o melhor atendimento e serviço possível, sempre buscando a satisfação total dos seus clientes.
+        </p>
+    </section>
+
     <section id="perguntas" class="row">
         <col-12>
             <h1 class="text-center">Dúvidas frequentes</h1>
@@ -103,7 +119,12 @@
                 </li>
                 <li class="li-pai"><span>Perdi meu CRV, e agora?</span>
                     <ul>
-                        <li><span>Se o seu CRV ainda não é digital, e você perdeu, será necessário uma segunda via do mesmo, antes de um processo de transferência, para isso você irá precisar de uma declaração de perda reconhecida em cartório, documentos do proprietário, e um laudo fotográfico.</span></li>
+                        <li><span>Se o seu CRV ainda não é digital, e você perdeu, será necessário uma segunda via do mesmo, antes de um processo de transferência, para isso você irá precisar de uma declaração de perda reconhecida em cartório, documentos do proprietário, comprovante de endereço, e um laudo fotográfico.</span></li>
+                    </ul>
+                </li>
+                <li class="li-pai"><span>Comprei um veículo, o que preciso pra transferir pro meu nome?</span>
+                    <ul>
+                        <li><span>Você precisa do CRV preenchido em seu nome, e reconhecido firma em cartório, pelo vendedor, e por você, seus documentos pessoais RG, CPF, e um comprovante de endereço atual em seu nome, e fazer um laudo de transferência.</span></li>
                     </ul>
                 </li>
             </ul>

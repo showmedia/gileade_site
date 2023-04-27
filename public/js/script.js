@@ -45,6 +45,12 @@ window.onload = function() {
   typeWriter();
 }
 
+function ocutar(){
+  $('.menu-mobile').removeClass('active');
+}
+
+
+
 $(document).ready(function() {
 
   $(".li-pai").click(function(){
