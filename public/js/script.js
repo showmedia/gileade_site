@@ -47,6 +47,13 @@ window.onload = function() {
 
 $(document).ready(function() {
 
+  $(".li-pai").click(function(){
+    $(this).find('ul').slideToggle();
+    $(this).addClass('active');
+    $('.li-pai').not(this).find('ul').slideUp();
+    $('li').not(this).removeClass('active');
+  });
+
   $(".contact-online").click(function(){
     alert('teste');
   });

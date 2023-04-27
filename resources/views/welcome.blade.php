@@ -25,7 +25,7 @@
             <div class="iten">
                 <div><ion-icon name="card-outline"></ion-icon></div>
                 <div>
-                    <h2>Pague em até 12X</h2>
+                    <h2>Pague em até 18X</h2>
                     <p>Regularize as pendências do seu carro de um jeito fácil e sem burocracia. Dá pra pagar em até 12 vezes, tudo seguro e tranquilo.</p>
                 </div>
             </div>
@@ -54,7 +54,7 @@
         </div>
         <div class='txt'>
             <p>
-                <span >Pague com facilidade em até</span> <br> <strong>12x</strong>
+                <span >Pague com facilidade em até</span> <br> <strong>18x</strong>
             </p>
         </div>
     </section>
@@ -73,6 +73,50 @@
             
         </div>
         <img class="img-gile" src="/img/img-pens.png" alt="">
+    </section>
+
+    <section id="perguntas" class="row">
+        <col-12>
+            <h1 class="text-center">Dúvidas frequentes</h1>
+        </col-12>
+        <div class="perg col-md-7">
+            <ul>
+                <li class="li-pai"><span>Qual o prazo para entrega do documento digital (CRLV-e)?</span>
+                    <ul>
+                        <li><span>Após a aprovação do pedido, nós emitiremos o CRLV Digital do seu veículo e enviaremos por e-mail em até 48 horas, exceto nos casos de estar na lista de devedores do estado ou ter Multas Renainf.</span></li>
+                    </ul>
+                </li>
+                <li class="li-pai"><span>O que é Documento Digital?</span>
+                    <ul>
+                        <li><span>Quando falamos de documento digital, estamos nos referindo ao CRLV (aquele certificado que era impresso em papel-moeda e entregue pelos Correios após a normalização do licenciamento). Agora, esse documento se tornou digital e pode ser utilizado em dispositivos móveis ou impresso em folha sulfite comum (A4).</span></li>
+                    </ul>
+                </li>
+                <li class="li-pai"><span>O que é CRV?</span>
+                    <ul>
+                        <li><span>CRV é o certificado de registro de veículo, também conhecido como recibo de compra e venda, utilizado para transferência de veículo.</span></li>
+                    </ul>
+                </li>
+                <li class="li-pai"><span>A partir de quando eu posso licenciar o meu veículo?</span>
+                    <ul>
+                        <li><span>O licenciamento anual do veículo pode ser feito no inicio de cada ano, porém para fazê-lo, é necessário quitar todos os débitos de multas e IPVA, então caso for pagar o IPVA parcelado, é possível fazer o licenciamento após quitar as parcelas.</span></li>
+                    </ul>
+                </li>
+                <li class="li-pai"><span>Perdi meu CRV, e agora?</span>
+                    <ul>
+                        <li><span>Se o seu CRV ainda não é digital, e você perdeu, será necessário uma segunda via do mesmo, antes de um processo de transferência, para isso você irá precisar de uma declaração de perda reconhecida em cartório, documentos do proprietário, e um laudo fotográfico.</span></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="ainda col-md-5">
+            <div>
+            <p>
+                A dúvida de muito de nossos clientes, também pode ser a sua, então separamos aqui a resposta das perguntas feitas com frequência por nossos clientes. <br><br>
+                Ainda tem alguma dúvida?
+            </p>
+            <a href="">Tire Agora!</a>
+            </div>
+        </div>
     </section>
 
     <div class="contact-online">
