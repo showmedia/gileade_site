@@ -122,6 +122,7 @@ function fluxo(){
     cont++;
     let div2 = $("#body-message");
     div2.scrollTop(div2.prop("scrollHeight"));
+    $("#message").focus();
     }, 1000);
       
 }

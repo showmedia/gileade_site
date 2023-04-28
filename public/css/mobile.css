@@ -157,7 +157,7 @@
     }
 
     .contact-online{
-        width: 10%
+        width: 10%;
         position: fixed;
         right: 10px !important;
         bottom: 10px;
@@ -218,7 +218,7 @@
         height: 90vh;
     }
     .box-message .body{
-        height: 700px;
+        height: 550px;
     }
 
 }
