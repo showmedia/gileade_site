@@ -210,4 +210,12 @@
         width: 100%;
       }
 
+    .box-message{
+        width: 100%;
+        height: 90vh;
+    }
+    .box-message .body{
+        height: 400px;
+    }
+
 }

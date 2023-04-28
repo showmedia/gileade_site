@@ -1028,6 +1028,11 @@ nav .menu-mobile.active{
   animation: loop 1s ease-in-out infinite;
 }
 
+.box-message .body .enviaragora{
+  bottom: 10%;
+  background-color: #2ecc71;
+}
+
 @keyframes loop {
   0%{
     padding: 6px 16px;

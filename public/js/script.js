@@ -90,6 +90,10 @@ messageinput.addEventListener("keydown", function(event) {
 });
 
 cont = 1;
+nome = '';
+telefone = '';
+placa = '';
+texto = '';
 
 function fluxo(){
     let txt = $("#message").val();
@@ -97,23 +101,41 @@ function fluxo(){
     additen(txt,'resposta');
     let div = $("#body-message");
     div.scrollTop(div.prop("scrollHeight"));
-  
+    setTimeout(function(){
     if(cont == 1){
+      nome = txt;
       additen('Olá '+txt+', tudo bem? Digite a PLACA do veículo a qual precisa de ajuda.', 'pergunta');
       $("#message").mask('AAA-0A00');
     }else if(cont == 2){
+      placa = txt;
       additen('Ok, agora me passa o número do seu whatsapp.', 'pergunta');
       $("#message").mask('(99)99999-9999');
-    }else if(cont ==3){
+    }else if(cont == 3){ 
+      telefone = txt;
       additen('Certo, obrigado pelas informações, digite abaixo qual sua dúvida!');
-      
+      $("#message").unmask();
+    }else if(cont > 3){
+      texto = txt;
+      additen('Ótimo, estou encaminhando sua mensagem agora para um de nossos consultores, e ele irá te atender! Se preferir, você pode encaminhar esses dados pro nosso whatsapp agora.');
+      $("#body-message").append("<button class='enviaragora' onclick='enviarwhats();'>Enviar Whats</button>");
     }
     cont++;
-    div = null;
-    setTimeout(function(){
-      let div2 = $("#body-message");
-      div2.scrollTop(div2.prop("scrollHeight"));
+    let div2 = $("#body-message");
+    div2.scrollTop(div2.prop("scrollHeight"));
     }, 1000);
+      
+}
+
+function enviarwhats(){
+    txtwhats = 'Olá, sou '+ nome + ', proprietário do veículo de placas: '+ placa + '. Pode me ajudar com essa dúvida? ' + texto;
+    txtwhats = txtwhats.trim();
+    txtwhats = txtwhats.replace(/ /g, "%20");
+
+    // Cria o link com o número do telefone e a mensagem
+    var link = "https://wa.me/5511964477746?text=" + txtwhats;
+
+    // Abre uma nova guia no navegador com o link
+    window.open(link);
 }
 
 $(document).ready(function() {
