@@ -548,7 +548,6 @@ nav .menu-mobile.active{
   align-content: center;
   justify-content: center;
   text-align: center;
-  width: 30vw;
   opacity: 0;
   z-index: 9999;
   animation: fade-in 2s ease-in-out;
@@ -561,7 +560,7 @@ nav .menu-mobile.active{
 }
 
 .contact-online .banner{
-  width: 70%;
+  width: 20vw;
   margin-right: 20px;
   padding: 20px;
   height: 65px;
@@ -574,6 +573,15 @@ nav .menu-mobile.active{
   position: relative;
   animation: slide-in-right 0.5s ease-in-out;
   animation-delay: 7s;
+}
+
+.contact-online .banner span{
+  color: #004e87;
+  font-weight: 600;
+  font-size: 12px;
+  position: absolute;
+  right: 10px;
+  top: 5px;
 }
 
 .contact-online .banner::before{
@@ -935,6 +943,187 @@ nav .menu-mobile.active{
 
 .msg p{
   font-size: 1.5rem;
+}
+
+.box-message{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 60vh;
+  width: 27vw;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: 4px 0px 7px rgba(0, 0, 3, 0.2);
+  display: none;
+}
+
+.box-message .span{
+  color: #004e87;
+  font-weight: 600;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
+.box-message .span:hover{
+  cursor: pointer;
+}
+
+.box-message .head{
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.box-message .head span{
+  margin-left: 10px;
+  color: #004e87;
+  font-weight: 500;
+}
+
+.box-message .img-contact{
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  position: relative;
+  background-image: url('/img/img-contact.png');
+  background-color: #197e7e;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  animation-delay: 7s;
+}
+
+.box-message .img-contact::before{
+  content: "";
+  background-color: #2ecc71;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+}
+
+.box-message .body{
+  padding: 10px;
+  padding-bottom: 20px;
+  height: 40vh;
+  overflow-y: auto;
+}
+
+.box-message .body button{
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 5px 15px;
+  border-radius: 7px;
+  background-color: #004e87;
+  color: #fff;
+  text-align: center;
+  border: none;
+  animation: loop 1s ease-in-out infinite;
+}
+
+@keyframes loop {
+  0%{
+    padding: 6px 16px;
+  }
+  50%{
+    padding: 5px 15px;
+  }
+  100%{
+    padding: 6px 16px;
+  }
+}
+
+.box-message .body ul li{
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  margin: 0 20px;
+}
+
+.box-message .body .pergunta{
+  float: left;
+}
+
+.box-message .body .resposta{
+  float: right;
+  background-color: #ccc;
+  padding: 3px 15px;
+  border-radius: 7px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+.box-message .body .pergunta::before{
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url('/img/img-contact.png');
+  background-color: #197e7e;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.box-message .body::-webkit-scrollbar {
+  width: 2px; /* Largura */
+  box-shadow: 4px 0px 7px rgba(0, 0, 3, 0.2);
+}
+
+/* Cor de fundo da barra de rolagem */
+.box-message .body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Cor da alça da barra de rolagem */
+.box-message .body::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Ao passar o mouse sobre a barra de rolagem */
+.box-message .body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.box-message .footer{
+  display: none;
+  width: 100%;
+  align-items: center;
+  border: 1px solid #eee;
+  position: absolute;
+  bottom: 0;
+}
+
+.box-message .footer-ative{
+  display: flex;
+}
+
+.box-message .footer input{
+  padding: 10px;
+  background-color: transparent;
+  width: 90%;
+  border: none;
+}
+
+.box-message .footer input:active, .box-message .footer input:focus{
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.box-message .footer button{
+  background-color: transparent;
+  padding: 10px;
+  border: none;
 }
 
 

@@ -139,9 +139,4 @@ Dessa forma, se você busca uma empresa de despachante veicular confiável e exp
             </div>
         </div>
     </section>
-
-    <div class="contact-online">
-        <div class="banner">Olá! Eu posso te ajudar?</div>
-        <div class="img-contact"></div>
-    </div>
 @endsection

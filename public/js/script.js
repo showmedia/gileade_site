@@ -57,7 +57,61 @@ function fecharmsg(){
   $('.msg').fadeOut();
 }
 
+function fecharmessage(){
+  $(".box-message").hide();
+  $(".contact-online").fadeIn();
+  $(".banner").hide();
+}
 
+function eupreciso(){
+  $("#preciso").hide();
+  additen('Eu preciso','resposta');
+  setTimeout(function(){
+    additen('Ótimo, é um prazer lhe ajudar. Qual é o seu nome?', 'pergunta');
+    $(".footer").addClass('footer-ative');
+  }, 1500);
+}
+
+function additen(message, classe){
+  lista = $("#lista-message");
+  lista.append("<li class="+classe+">"+message+"</li>");
+}
+
+// seleciona o input
+const messageinput = document.getElementById("message");
+
+// adiciona um ouvinte de evento keydown
+messageinput.addEventListener("keydown", function(event) {
+  // verifica se a tecla pressionada foi a tecla "Enter" (código 13)
+  if (event.keyCode === 13) {
+    // chama a função que você quer quando a tecla Enter for pressionada
+    fluxo();
+  }
+});
+
+cont = 1;
+
+function fluxo(){
+    let txt = $("#message").val();
+    $("#message").val('');
+    additen(txt,'resposta');
+    let div = $("#body-message");
+    div.scrollTop(div.prop("scrollHeight"));
+  
+    if(cont == 1){
+      additen('Olá '+txt+', tudo bem? Digite a PLACA do veículo a qual precisa de ajuda.', 'pergunta');
+      $("#message").mask('AAA-0A00');
+    }else if(cont == 2){
+      additen('Ok, agora me passa o número do seu whatsapp.', 'pergunta');
+      $("#message").mask('(99)99999-9999');
+    }
+    cont++;
+    div = null;
+    setTimeout(function(){
+      let div2 = $("#body-message");
+      div2.scrollTop(div2.prop("scrollHeight"));
+    }, 1000);
+}
 
 $(document).ready(function() {
 
@@ -68,8 +122,13 @@ $(document).ready(function() {
     $('li').not(this).removeClass('active');
   });
 
+  $("#btn-send").click(function(){
+    fluxo();
+  });
+
   $(".contact-online").click(function(){
-    alert('teste');
+    $(this).hide();
+    $(".box-message").fadeIn();
   });
 
   $(".ven-truck").hide();
