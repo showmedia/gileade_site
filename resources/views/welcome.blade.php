@@ -68,7 +68,7 @@
                 <img src="/img/detran.png" alt="">
                 <img src="/img/rendimento.png" alt="">
             </div>
-            <a href="">Eu quero FACILIDADE</a>
+            <a target="_blanck" href="https://wa.me/5511959658312">Eu quero FACILIDADE</a>
             </div>
             
         </div>
@@ -135,7 +135,7 @@ Dessa forma, se você busca uma empresa de despachante veicular confiável e exp
                 A dúvida de muito de nossos clientes, também pode ser a sua, então separamos aqui a resposta das perguntas feitas com frequência por nossos clientes. <br><br>
                 Ainda tem alguma dúvida?
             </p>
-            <a href="">Tire Agora!</a>
+            <a target="_blanck" href="https://wa.me/5511959658312">Tire Agora!</a>
             </div>
         </div>
     </section>
