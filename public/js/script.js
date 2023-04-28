@@ -104,6 +104,9 @@ function fluxo(){
     }else if(cont == 2){
       additen('Ok, agora me passa o número do seu whatsapp.', 'pergunta');
       $("#message").mask('(99)99999-9999');
+    }else if(cont ==3){
+      additen('Certo, obrigado pelas informações, digite abaixo qual sua dúvida!');
+      
     }
     cont++;
     div = null;
