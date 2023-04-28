@@ -66,6 +66,7 @@ function fecharmessage(){
 function eupreciso(){
   $("#preciso").hide();
   additen('Eu preciso','resposta');
+  $("#message").focus();
   setTimeout(function(){
     additen('Ótimo, é um prazer lhe ajudar. Qual é o seu nome?', 'pergunta');
     $(".footer").addClass('footer-ative');
@@ -99,6 +100,7 @@ function fluxo(){
     let txt = $("#message").val();
     $("#message").val('');
     additen(txt,'resposta');
+    $("#message").focus();
     let div = $("#body-message");
     div.scrollTop(div.prop("scrollHeight"));
     setTimeout(function(){
@@ -122,7 +124,7 @@ function fluxo(){
     cont++;
     let div2 = $("#body-message");
     div2.scrollTop(div2.prop("scrollHeight"));
-    $("#message").focus();
+    
     }, 1000);
       
 }
