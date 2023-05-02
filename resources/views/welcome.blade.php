@@ -26,7 +26,7 @@
                 <div><ion-icon name="card-outline"></ion-icon></div>
                 <div>
                     <h2>Pague em até 18X</h2>
-                    <p>Regularize as pendências do seu carro de um jeito fácil e sem burocracia. Dá pra pagar em até 18 vezes, tudo seguro e tranquilo.</p>
+                    <p>Regularize as pendências do seu carro de um jeito fácil e sem burocracia. Dá pra pagar em até 188 vezes, tudo seguro e tranquilo.</p>
                 </div>
             </div>
         </div>
