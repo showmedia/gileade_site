@@ -1132,6 +1132,19 @@ nav .menu-mobile.active{
   color: #004e87;
   font-weight: bold;
 }
+#servicopage p{
+  padding: 50px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #555;
+}
+#servicopage .img{
+  min-height: 200px;
+  width: 100%;
+  background-image: url('/img/back.webp');
+  background-size: cover;
+  background-position: center;
+}
 .msg{
   position: fixed;
   width: 80%;
