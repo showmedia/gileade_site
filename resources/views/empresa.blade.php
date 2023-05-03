@@ -40,4 +40,14 @@
             </div>
         </div>
     </section>
+    <section id="info3">
+        <div class="d-flex mobile-block">
+            <div>
+                <img src="/img/sistema.png" alt="">
+            </div>
+            <div class="texto">
+                <h5>Além disso, oferecemos um sistema web exclusivo para nossos parceiros, que permite acesso fácil e rápido a todas as informações dos serviços que estão em andamento ou já foram concluídos. Com esse sistema, você pode visualizar e gerenciar guias de pagamento, documentos digitais, e muito mais.</h5>
+            </div>
+        </div>
+    </section>
 @endsection

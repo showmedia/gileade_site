@@ -276,7 +276,7 @@
       #infoempresas h5{
         padding: 0 0;
       }
-      #info2 .mobile-block{
+      .mobile-block{
         display: block !important;
       }
 
@@ -287,5 +287,10 @@
       #info2 img{
         width: 100%;
         margin: 0 auto;
+      }
+
+      #info3 .texto{
+        padding: 0;
+        margin-top: 20px;
       }
 }
