@@ -1066,12 +1066,16 @@ nav .menu-mobile.active{
 #infoempresas{
   background-color: #004e87;
   color: #fff;
-  min-height: 150px;
+  min-height: 300px;
   padding: 50px 10%;
+  position: relative;
 }
 #infoempresas img{
-  width: 100%;
+  width: 25%;
   margin-left: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 0px;
 }
 #infoempresas h2{
   text-align: center;
@@ -1105,7 +1109,7 @@ nav .menu-mobile.active{
 #info3{
   min-height: 150px;
   padding: 50px 10%;
-  background-color: #f9f9f9;
+  background-color: #f7cc7e;
 }
 #info3 .texto{
   display: flex;
@@ -1114,6 +1118,21 @@ nav .menu-mobile.active{
   align-items: center;
   align-content: center;
   justify-content: center;
+}
+#info4{
+  background-color: #fff;
+  min-height: 300px;
+  padding: 50px 10%;
+  position: relative;
+}
+#info4 img{
+  width: 30%;
+  position: absolute;
+  bottom: 0;
+}
+#info4 .texto{
+  width: 70%;
+  padding: 50px;
 }
 .msg{
   position: fixed;
