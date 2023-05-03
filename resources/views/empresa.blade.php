@@ -52,7 +52,7 @@
     </section>
 
     <section id="info4">
-            <div class="d-flex mobile-block">
+            <div class="d-flex">
             <div class="texto">
                 <h5>Não perca mais tempo e dinheiro lidando com a burocracia sozinho. Contrate o nosso serviço de despachante e foque no que realmente importa: o crescimento e sucesso da sua empresa.</h5>
             </div>

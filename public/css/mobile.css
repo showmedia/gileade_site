@@ -293,4 +293,11 @@
         padding: 0;
         margin-top: 20px;
       }
+      #info4 .texto{
+        padding: 0;
+      }
+      #info4 img{
+        width: 70%;
+        right: -120px;
+      }
 }
