@@ -1071,6 +1071,7 @@ nav .menu-mobile.active{
 }
 #infoempresas img{
   width: 100%;
+  margin-left: 50px;
 }
 #infoempresas h2{
   text-align: center;
@@ -1084,7 +1085,23 @@ nav .menu-mobile.active{
   font-weight: 300;
   text-align: center;
 }
-
+#info2{
+  min-height: 150px;
+  padding: 50px 10%;
+  background-color: #fff;
+}
+#info2 h5{
+  text-align: center;
+  color: #004e87;
+  font-weight: bold;
+  padding: 50px;
+}
+#info2 .texto{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
 .msg{
   position: fixed;
   width: 80%;

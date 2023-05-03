@@ -30,4 +30,14 @@
             </div>
         </div>
     </section>
+    <section id="info2">
+        <div class="d-flex">
+            <div class="texto">
+                <h5>Ao contratar o nosso serviço de despachante, você terá acesso a uma equipe altamente qualificada e experiente, que trabalha para garantir que todas as suas obrigações legais sejam cumpridas com eficiência e rapidez. Nós cuidamos de tudo, desde a obtenção de licenças e autorizações até a renovação de documentos e pagamentos de taxas.</h5>
+            </div>
+            <div>
+                <img src="/img/equipe.png" alt="">
+            </div>
+        </div>
+    </section>
 @endsection
