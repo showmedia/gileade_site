@@ -29,7 +29,7 @@
     <a href="/"><img src="img/logo2.png" alt="Logo"></a>
   </div>
   <ul class="menu" id="elemento-hover">
-  <li class="nav-link2"><a href="#quemsomos" style="cursor:pointer;">Sobre Nós</a></li>
+  <li class="nav-link2"><a href="/#quemsomos" style="cursor:pointer;">Sobre Nós</a></li>
     <li class="nav-link"><a >Serviços</a>
         <ul class="elemento-animado" style="width: 40vw;">
             <div class="col-12 row p-2">
@@ -119,7 +119,7 @@
     <nav class="menu-mobile">
         <span class="close">X</span>
     <ul id="elemento-hover">
-  <li class="nav-link2"><a href="#quemsomos" onclick="ocutar()" style="cursor:pointer;">Sobre Nós</a></li>
+  <li class="nav-link2"><a href="/#quemsomos" onclick="ocutar()" style="cursor:pointer;">Sobre Nós</a></li>
     <li class="nav-link titulo"><a >Serviços</a>
        
                 <a href=""><li><span>Licenciamento</span></li></a>
@@ -160,7 +160,7 @@
         
     </li>
     <li class="nav-link titulo"><a >Comunidade</a>
-            <a href="#perguntas" onclick="ocutar()"><li><span>Perguntas</span></li></a>
+            <a href="/#perguntas" onclick="ocutar()"><li><span>Perguntas</span></li></a>
             <a href="https://www.instagram.com/gileadedespachante/" target="_blanck"><li ><ion-icon name="logo-instagram"></ion-icon> <span>Instagram</span> </li></a>
             <a href="https://wa.me/5511959658312" target="_blanck"><li ><ion-icon name="logo-whatsapp"></ion-icon> <span>Whatsapp</span></li></a>
      
@@ -216,7 +216,7 @@
             </div>
 			<div class="flex-fill">
                 <ul>
-                    <li><a href="#quemsomos">Sobre Nós</a></li>
+                    <li><a href="/#quemsomos">Sobre Nós</a></li>
                     <li><a href="">Política de Privacidade</a></li>
                     <li><a href="">Termos de Uso</a></li>
                 </ul>
