@@ -226,5 +226,52 @@
     .box-message .body{
         height: 550px;
     }
-
+    #empresas{
+        padding: 50px 2%;
+    }
+    #empresas .lista-empresas{
+        margin-top: 150px;
+        margin-bottom: -50px;
+    }
+    #empresas a{
+        width: 50%;
+      }
+      .frota01 {
+        width: 120px;
+        height: 100px;
+        left: 30px;
+        top: 30px;
+        animation: frotaponta 1s ease-in-out, fade-in 1s ease-in-out;
+        animation-delay: 0.5s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+      }
+      .frota05 {
+        width: 120px;
+        height: 100px;
+        right: 30px;
+        top: 30px;
+        animation: frotaponta 1s ease-in-out, fade-in 1s ease-in-out;
+        animation-delay: 0.5s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+      }
+      .frota02{
+        left: 0px;
+      }
+      .frota04 {
+        right: 0px;
+      }
+      .frota03 {
+        z-index: 999;
+      }
+      .frota05{
+        display: none;
+      }
+      .frota01 {
+        z-index: 999;
+        top: 100px;
+        left: 10px;
+      }
+      
 }
