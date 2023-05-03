@@ -13,6 +13,8 @@
         </div>
     </section>
 
+
+
     <section id="servicos">
         <div class="linha">
             <div class="iten">
@@ -45,6 +47,30 @@
                     <p>Podemos enviar seu documento conforme sua preferência, e-mail, whatsapp ou até correios.</p>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section id="empresas">
+        <h1>As vantagens que a sua frota precisa esta aqui</h1>
+        <div class="row">
+            <div class="col-md-8 imagens">
+                <img class="frota01" src="/img/frota04.png" alt="">
+                <img class="frota02" src="/img/frota01.png" alt="">
+                <img class="frota03" src="/img/frota02.png" alt="">
+                <img class="frota04" src="/img/frota05.png" alt="">
+                <img class="frota05" src="/img/frota03.png" alt="">
+            </div>
+            <div class="col-md-4 lista-empresas">
+                <ul>
+                    <li><span class="checkmark">&#10003;</span>Concessionárias</li>
+                    <li><span class="checkmark">&#10003;</span>Locadoras</li>
+                    <li><span class="checkmark">&#10003;</span>Agências</li>
+                    <li><span class="checkmark">&#10003;</span>Transportadoras</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <a href="/empresas">Saiba Mais</a>
         </div>
     </section>
 

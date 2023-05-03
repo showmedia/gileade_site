@@ -16,5 +16,8 @@ use App\Http\Controllers\ConsultaController;
 */
 
 Route::get('/consultar', [ConsultaController::class, 'consultar']);
+Route::get('/empresas', function(){
+    return view('empresa');
+});
 
 Route::get('/', [WelcomeController::class, 'welcome']);

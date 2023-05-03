@@ -26,7 +26,7 @@
 
             <nav id="nav">
   <div class="logo">
-    <a href="#"><img src="img/logo2.png" alt="Logo"></a>
+    <a href="/"><img src="img/logo2.png" alt="Logo"></a>
   </div>
   <ul class="menu" id="elemento-hover">
   <li class="nav-link2"><a href="#quemsomos" style="cursor:pointer;">Sobre Nós</a></li>

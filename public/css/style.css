@@ -911,6 +911,180 @@ nav .menu-mobile.active{
   transition: 0.7s;
 }
 
+#empresas{
+  width: 100%;
+  min-height: 300px;
+  background-color: #eee;
+  border-top: 1px solid #ddd;
+  padding: 50px;
+  padding: 50px 10%;
+}
+
+#empresas a{
+  text-decoration: none;
+  background-color: #004e87;
+  text-align: center;
+  margin: 50px auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 3px;
+  width: 20%;
+  color: #fff;
+}
+
+#empresas h1{
+  text-align: center;
+  font-size: 1.9rem;
+  font-weight: bold;
+  color: #004e87;
+  margin: 50px;
+  margin-top: 10px;
+}
+
+#empresas .imagens{
+  display: flex;
+  position: relative;
+}
+
+#empresas img{
+  position: absolute;
+}
+
+#empresas .imagens .frota03{
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  animation: frotacentro 1s ease-in-out, fade-in 1s ease-in-out;
+}
+.frota01 {
+  width: 120px;
+  height: 100px;
+  left: 30px;
+  top: 30px;
+  animation: frotaponta 1s ease-in-out, fade-in 1s ease-in-out;
+  animation-delay: 0.5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+.frota05 {
+  width: 120px;
+  height: 100px;
+  right: 30px;
+  top: 30px;
+  animation: frotaponta 1s ease-in-out, fade-in 1s ease-in-out;
+  animation-delay: 0.5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+.frota02{
+  width: 130px;
+  height: 120px;
+  left: 150px;
+  top: 35px;
+  animation: frotameio 1s ease-in-out, fade-in 1s ease-in-out;
+  animation-delay: 0.3s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+.frota04 {
+  width: 130px;
+  height: 120px;
+  right: 150px;
+  top: 35px;
+  animation: frotameio 1s ease-in-out, fade-in 1s ease-in-out;
+  animation-delay: 0.3s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes frotacentro {
+  from{
+    top: -20px;
+    width: 100px;
+  }
+  to{
+    top: 0px;
+    width: 150px;
+  }
+}
+@keyframes frotameio {
+  from{
+    width: 100px;
+    height: 90px;
+    bottom: -30px;
+  }
+  to{
+    width: 130px;
+    height: 120px;
+    bottom: -40px;
+  }
+}
+@keyframes frotaponta {
+  from{
+    width: 100px;
+    height: 80px;
+    bottom: -20px;
+  }
+  to{
+    width: 120px;
+    height: 100px;
+    bottom: -30px;
+  }
+}
+@keyframes frota02 {
+  from{
+    left: 0;
+  }
+  to{
+    left: 15px;
+  }
+}
+@keyframes frota04 {
+  from{
+    right: 0;
+  }
+  to {
+    right: 15px;
+  }
+}
+
+.lista-empresas{
+  column-count: 2;
+  column-gap: 20px;
+  padding: 50px 0px;
+}
+
+.lista-empresas ul li{
+  list-style: none;
+  font-weight: bold;
+}
+.checkmark {
+  margin-right: 5px;
+}
+
+#infoempresas{
+  background-color: #004e87;
+  color: #fff;
+  min-height: 150px;
+  padding: 50px 10%;
+}
+#infoempresas img{
+  width: 100%;
+}
+#infoempresas h2{
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  color: #dfb453;
+  font-weight: 900;
+}
+#infoempresas h5{
+  padding: 0 20%;
+  font-weight: 300;
+  text-align: center;
+}
+
 .msg{
   position: fixed;
   width: 80%;

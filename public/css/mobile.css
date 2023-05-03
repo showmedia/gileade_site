@@ -190,6 +190,12 @@
     #parcelas p{
         font-size: 1rem;
     }
+    #infoempresas img{
+        display: none;
+      }
+      #infoempresas h5{
+        padding: 0 10%;
+      }
     #parcelas h1{
         font-size: 1.5rem;
     }
