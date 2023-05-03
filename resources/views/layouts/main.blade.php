@@ -122,16 +122,16 @@
   <li class="nav-link2"><a href="/#quemsomos" onclick="ocutar()" style="cursor:pointer;">Sobre Nós</a></li>
     <li class="nav-link titulo"><a >Serviços</a>
        
-                <a href=""><li><span>Licenciamento</span></li></a>
-                <a href=""><li><span>Transferência</span></li></a>
-                <a href=""><li><span>Isenção de IPVA PCD</span></li></a>
-                <a href=""><li><span>Primeiro emplacamento</span></li></a>
-                <a href=""><li><span>Segunda via CRV</span></li></a>
-                <a href=""><li><span>Legalização carro rebaixado</span></li></a>
-                <a href=""><li><span>Desbloqueio de sinistro</span></li></a>
-                <a href=""><li><span>Regularização de motor</span></li></a>
-                <a href=""><li><span>Registro ANTT</span></li></a>
-                <a href=""><li><span>Blindagem de veículos</span></li></a>
+                <a href="/servico?tipo=Licenciamento"><li><span>Licenciamento</span></li></a>
+                <a href="/servico?tipo=Transferência"><li><span>Transferência</span></li></a>
+                <a href="/servico?tipo=Isenção de IPVA PCD"><li><span>Isenção de IPVA PCD</span></li></a>
+                <a href="/servico?tipo=Primeiro Emplacamento"><li><span>Primeiro emplacamento</span></li></a>
+                <a href="/servico?tipo=Segunda via CRV"><li><span>Segunda via CRV</span></li></a>
+                <a href="/servico?tipo=Legalização carro rebaixado"><li><span>Legalização carro rebaixado</span></li></a>
+                <a href="/servico?tipo=Desbloqueio de sinistro"><li><span>Desbloqueio de sinistro</span></li></a>
+                <a href="/servico?tipo=Regularização de motor"><li><span>Regularização de motor</span></li></a>
+                <a href="/servico?tipo=Registro ANTT"><li><span>Registro ANTT</span></li></a>
+                <a href="/servico?tipo=Blindagem de Veículos"><li><span>Blindagem de veículos</span></li></a>
        
     </li>
     <li class="nav-link titulo"><a >Vencimentos</a>
