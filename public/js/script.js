@@ -30,6 +30,7 @@ function clicar(id){
 var i = 0;
 var txt = 'Consultar os débitos do seu veículo nunca foi tão fácil! Agora, tudo está na palma da sua mão!';
 var txt2 = 'Eu posso te ajudar com isso!';
+
 var speed = 40;
 
 function typeWriter() {

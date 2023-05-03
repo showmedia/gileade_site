@@ -19,5 +19,9 @@ Route::get('/consultar', [ConsultaController::class, 'consultar']);
 Route::get('/empresas', function(){
     return view('empresa');
 });
+Route::get('/servico', function(){
+    $servico = request('tipo');
+    return view('servico', ['servico' => $servico]);
+});
 
 Route::get('/', [WelcomeController::class, 'welcome']);

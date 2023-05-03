@@ -7,9 +7,9 @@ text-decoration: none;
 }
 
 body {
-  min-height: 100vh;
+  min-height: 30vh;
   position: relative;
-  background-color: #f1f1f1;
+  background-color: #fff;
   overflow-x: hidden;
 }
 
@@ -57,17 +57,6 @@ footer .social-links a{
     border-radius: 2px;
     padding: 0.2rem;
     z-index: 998;
-  color: #004e87;
-  font-size: 1.2rem;
-  margin: 0.2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-  border: none;
-  border-radius: 2px;
-  padding: 0.2rem;
-  z-index: 998;
 }
 
 .social-links a:hover{
@@ -1133,6 +1122,15 @@ nav .menu-mobile.active{
 #info4 .texto{
   width: 70%;
   padding: 50px;
+}
+#servicopage {
+  background-color: #fff;
+  padding: 50px 10%;
+}
+#servicopage h1{
+  font-size: 2rem;
+  color: #004e87;
+  font-weight: bold;
 }
 .msg{
   position: fixed;

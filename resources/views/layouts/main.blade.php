@@ -34,18 +34,18 @@
         <ul class="elemento-animado" style="width: 40vw;">
             <div class="col-12 row p-2">
                 <div class="text-start col-6">
-                    <a href=""><li class="p-2"><span>Licenciamento</span></li></a>
-                    <a href=""><li class="p-2"><span>Transferência</span></li></a>
-                    <a href=""><li class="p-2"><span>Isenção de IPVA PCD</span></li></a>
-                    <a href=""><li class="p-2"><span>Primeiro emplacamento</span></li></a>
-                    <a href=""><li class="p-2"><span>Segunda via CRV</span></li></a>
+                    <a href="/servico?tipo=Licenciamento"><li class="p-2"><span>Licenciamento</span></li></a>
+                    <a href="/servico?tipo=Transferência"><li class="p-2"><span>Transferência</span></li></a>
+                    <a href="/servico?tipo=Isenção de IPVA PCD"><li class="p-2"><span>Isenção de IPVA PCD</span></li></a>
+                    <a href="/servico?tipo=Primeiro Emplacamento"><li class="p-2"><span>Primeiro emplacamento</span></li></a>
+                    <a href="/servico?tipo=Segunda via CRV"><li class="p-2"><span>Segunda via CRV</span></li></a>
                 </div>
                 <div class="text-start col-6" style="border-left: 1px solid #ddd;">
-                    <a href=""><li class="p-2"><span>Legalização carro rebaixado</span></li></a>
-                    <a href=""><li class="p-2"><span>Desbloqueio de sinistro</span></li></a>
-                    <a href=""><li class="p-2"><span>Regularização de motor</span></li></a>
-                    <a href=""><li class="p-2"><span>Registro ANTT</span></li></a>
-                    <a href=""><li class="p-2"><span>Blindagem de veículos</span></li></a>
+                    <a href="/servico?tipo=Legalização carro rebaixado"><li class="p-2"><span>Legalização carro rebaixado</span></li></a>
+                    <a href="/servico?tipo=Desbloqueio de Sinistro"><li class="p-2"><span>Desbloqueio de sinistro</span></li></a>
+                    <a href="/servico?tipo=Regularização de Motor"><li class="p-2"><span>Regularização de motor</span></li></a>
+                    <a href="/servico?tipo=Registro ANTT"><li class="p-2"><span>Registro ANTT</span></li></a>
+                    <a href="/servico?tipo=Blindagem de Veículos"><li class="p-2"><span>Blindagem de veículos</span></li></a>
                 <div>
             </div>
         </ul>
