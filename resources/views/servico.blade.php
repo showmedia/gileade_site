@@ -108,6 +108,34 @@
                 <br><br>
                 Em resumo, a regularização de motor é um serviço importante para legalizar um motor que não está devidamente cadastrado ou regularizado. O processo envolve a apresentação de documentos, vistoria e, em alguns casos, a realização de adaptações ou substituições no motor. A falta de regularização de motor pode trazer diversas consequências, tais como multas e apreensão do veículo, além de impedir o licenciamento do mesmo. Portanto, é fundamental realizar a regularização para evitar transtornos futuros.
                 </p>
+            @elseif($servico == 'Registro ANTT')
+                <p>
+                O Registro na ANTT (Agência Nacional de Transportes Terrestres) é um serviço obrigatório para empresas de transporte rodoviário de cargas e de passageiros. A ANTT é responsável pela regulamentação e fiscalização desse tipo de transporte no país, garantindo a segurança dos usuários e a qualidade dos serviços prestados.
+                <br><br>
+                O registro na ANTT é exigido para todas as empresas que atuam no transporte rodoviário interestadual e internacional de cargas e passageiros. O objetivo do registro é garantir que as empresas estejam em conformidade com as normas estabelecidas pela agência, que visam a segurança e a qualidade dos serviços prestados.
+                <br><br>
+                Para realizar o registro, as empresas devem apresentar uma série de documentos, tais como o CNPJ, a inscrição estadual, a comprovação de regularidade fiscal, além de documentos específicos que variam de acordo com o tipo de transporte e as características da empresa.
+                <br><br>
+                Após a apresentação dos documentos, é realizada uma vistoria nos veículos e nas instalações da empresa para verificar se tudo está de acordo com as normas estabelecidas pela ANTT. Em caso de conformidade, é emitido o Certificado de Registro Nacional de Transportador Rodoviário de Cargas (CRNTC) ou o Certificado de Registro Nacional de Transportador Rodoviário de Passageiros (CRNTR), permitindo que a empresa possa atuar no transporte rodoviário interestadual e internacional de cargas e passageiros.
+                <br><br>
+                É importante ressaltar que a falta de registro na ANTT pode trazer diversas consequências, tais como multas, apreensão dos veículos e a suspensão das atividades da empresa. Além disso, o registro é fundamental para a segurança dos usuários e para a qualidade dos serviços prestados, sendo obrigatório para todas as empresas que atuam no transporte rodoviário de cargas e passageiros.
+                <br><br>
+                Em resumo, o registro na ANTT é um serviço obrigatório para empresas de transporte rodoviário de cargas e de passageiros que desejam atuar no transporte interestadual e internacional. O processo envolve a apresentação de documentos e a realização de vistorias para verificar se a empresa está em conformidade com as normas estabelecidas pela agência. A falta de registro pode trazer diversas consequências, sendo fundamental para a segurança dos usuários e para a qualidade dos serviços prestados.
+                </p>
+            @elseif($servico == 'Blindagem de Veículos')
+                <p>
+                A blindagem de veículos é um serviço de segurança que tem como objetivo proteger os ocupantes do veículo contra ataques externos, como tiros e explosões. A blindagem consiste na instalação de uma camada de materiais resistentes em partes vitais do veículo, como vidros, portas e painel, capaz de suportar impactos de projéteis de armas de fogo e explosões.
+                <br><br>
+                A blindagem é um serviço bastante procurado por pessoas que precisam de mais segurança no transporte diário, como empresários, políticos e celebridades. A escolha do nível de blindagem adequado depende do risco de exposição a situações de violência e do tipo de arma que se pretende resistir. Os níveis de blindagem variam de acordo com a proteção oferecida, podendo ir desde uma proteção contra calibres mais comuns até proteções contra armas de grande porte.
+                <br><br>
+                Para realizar a blindagem, é necessário escolher uma empresa especializada e certificada pelo Exército Brasileiro, responsável pela regulamentação do setor. A empresa irá avaliar o veículo e orientar sobre o nível de blindagem adequado, além de realizar a instalação dos materiais necessários.
+                <br><br>
+                Após a instalação, o veículo passa por uma inspeção no órgão de trânsito local para receber a autorização de circulação com a nova característica. É importante ressaltar que a blindagem deve estar em conformidade com as normas estabelecidas pelo Exército e pelo órgão de trânsito para que seja considerada legal.
+                <br><br>
+                Vale destacar que a blindagem não é uma garantia total de segurança, pois existem limitações de proteção que podem ser ultrapassadas em algumas situações. Por isso, é importante que os usuários mantenham sempre a atenção e adotem medidas de segurança complementares, como evitar rotas conhecidas por serem perigosas e manter a atenção aos arredores.
+                <br><br>
+                Em resumo, a blindagem de veículos é um serviço de segurança que tem como objetivo proteger os ocupantes do veículo contra ataques externos, como tiros e explosões. A escolha do nível de blindagem adequado depende do risco de exposição a situações de violência e do tipo de arma que se pretende resistir. A realização da blindagem deve ser feita por uma empresa especializada e certificada pelo Exército Brasileiro e estar em conformidade com as normas estabelecidas pelo órgão de trânsito local.
+                </p>
             @endif
         @endif
     </section>
