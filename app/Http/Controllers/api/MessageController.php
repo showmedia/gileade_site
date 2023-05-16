@@ -54,6 +54,7 @@ class MessageController extends Controller
             $conscliente = Cliente::where([
                 ['telefone', $cliente->telefone]
             ])->first();
+            return $conscliente;
             $consveiculo = Veiculo::where([
                 ['placa', $veiculo->placa]
             ])->first();
