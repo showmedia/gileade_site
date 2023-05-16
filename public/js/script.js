@@ -129,6 +129,8 @@ function fluxo(){
       $("#message").unmask();
     }else if(cont > 3){
       texto = txt;
+      data.mensagem = txt;
+      cadastrarbanco(4,texto, data);
       additen('Ótimo, estou encaminhando sua mensagem agora para um de nossos consultores, e ele irá te atender! Se preferir, você pode encaminhar esses dados pro nosso whatsapp agora.');
       $("#body-message").append("<button class='enviaragora' onclick='enviarwhats();'>Enviar Whats</button>");
     }
