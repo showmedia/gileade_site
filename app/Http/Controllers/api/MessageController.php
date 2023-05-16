@@ -43,13 +43,7 @@ class MessageController extends Controller
         $texto = $request->texto;
         $data = $request->data;
         $dataencode = $request->input('data');
-
-        if($tipo == 1){
-            $contato = new Contato;
-            $contato->save(); 
-        }else{
-            $contato = Contato::findOrFail($dataencode['contato_id']);
-        }
+        $contato_id = 1;
 
         if($tipo == 3){
             $cliente = new Cliente;
@@ -75,18 +69,20 @@ class MessageController extends Controller
             }else{
                 $veiculo = $consveiculo;
             }
+            $contato = new Cotnato;
             $contato->clientes_id = $cliente->id;
             $contato->veiculos_id = $veiculo->id;
-            $contato->update();
+            $contato->save();
+            $contato_id = $contato->id;
         }else if($tipo == 4){
             $mensagem = new Message;
             $mensagem->description = $texto;
-            $mensagem->contatos_id = $contato->id;
+            $mensagem->contatos_id = $dataencode['contato_id'];
             $mensagem->save();
         }   
 
         $contato = [
-            'contato_id' => $contato->id,
+            'contato_id' => $contato_id,
             'tipo' => $tipo,
             'texto' => $texto,
             'data' => $data
