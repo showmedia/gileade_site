@@ -169,9 +169,7 @@ function cadastrarbanco(tipo, texto, data){
       data: data
     },
     success: function (response) {
-        if(response.tipo == 1){
           data.contato_id = response.contato_id;
-        }
         console.log(response);
     },
     error: function(data){
