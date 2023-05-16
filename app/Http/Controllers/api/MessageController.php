@@ -81,6 +81,8 @@ class MessageController extends Controller
             $mensagem = new Message;
             $mensagem->description = $texto;
             $mensagem->contatos_id = $dataencode['contato_id'];
+            $contato_id = $dataencode['contato_id'];
+
             $mensagem->save();
         }   
 
