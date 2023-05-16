@@ -96,6 +96,9 @@ nome = '';
 telefone = '';
 placa = '';
 texto = '';
+data = {
+
+}
 
 function fluxo(){
     let txt = $("#message").val();
@@ -107,14 +110,21 @@ function fluxo(){
     setTimeout(function(){
     if(cont == 1){
       nome = txt;
+      data.name = txt;
+      cadastrarbanco(1,nome, data);
+      
       additen('Olá '+txt+', tudo bem? Digite a PLACA do veículo a qual precisa de ajuda.', 'pergunta');
       $("#message").mask('AAA-0A00');
     }else if(cont == 2){
       placa = txt;
+      data.placa = txt;
+      cadastrarbanco(2,placa, data);
       additen('Ok, agora me passa o número do seu whatsapp.', 'pergunta');
       $("#message").mask('(99)99999-9999');
     }else if(cont == 3){ 
       telefone = txt;
+      data.telefone = txt;
+      cadastrarbanco(3,telefone, data);
       additen('Certo, obrigado pelas informações, digite abaixo qual sua dúvida!');
       $("#message").unmask();
     }else if(cont > 3){
@@ -140,6 +150,36 @@ function enviarwhats(){
 
     // Abre uma nova guia no navegador com o link
     window.open(link);
+}
+
+function cadastrarbanco(tipo, texto, data){
+
+  $.ajax({
+    url: "/api/message",
+    type: "POST",    
+    dataType: "json",
+    headers: {
+      'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+  },
+    data: {
+      tipo: tipo,
+      texto: texto,
+      data: data
+    },
+    success: function (response) {
+        if(response.tipo == 1){
+          data.contato_id = response.contato_id;
+        }
+        console.log(response);
+    },
+    error: function(data){
+      console.log('erro');
+      console.log(data);
+    },
+    complete: function(){
+        //ação depois de completo
+    }
+});
 }
 
 $(document).ready(function() {
