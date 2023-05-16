@@ -59,11 +59,11 @@ class MessageController extends Controller
                 ['placa', $veiculo->placa]
             ])->first();
             if($conscliente == null){
-                return 'teste nulo';
                 $cliente->save();
             }else{
                 $cliente = $conscliente;
                 $cliente->telefone = $dataencode['telefone'];
+                $cliente->name = $dataencode['name'];
                 $cliente->update();
             }
             if($consveiculo == null){
@@ -71,7 +71,7 @@ class MessageController extends Controller
             }else{
                 $veiculo = $consveiculo;
             }
-            $contato = new Cotnato;
+            $contato = new Contato;
             $contato->clientes_id = $cliente->id;
             $contato->veiculos_id = $veiculo->id;
             $contato->save();
