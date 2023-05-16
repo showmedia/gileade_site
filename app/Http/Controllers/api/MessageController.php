@@ -51,6 +51,7 @@ class MessageController extends Controller
             $cliente->telefone = $dataencode['telefone'];
             $veiculo = new Veiculo;
             $veiculo->placa = $dataencode['placa'];
+            
             $conscliente = Cliente::where([
                 ['telefone', $cliente->telefone]
             ])->first();
@@ -62,11 +63,11 @@ class MessageController extends Controller
                 $cliente->save();
             }else{
                 $cliente = $conscliente;
-                $cliente->telefone = $dataencode['telefone'];
                 $cliente->name = $dataencode['name'];
                 $cliente->update();
             }
             if($consveiculo == null){
+                $veiculo->modelo = 'não cadastrado';
                 $veiculo->save();
             }else{
                 $veiculo = $consveiculo;
